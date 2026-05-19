@@ -1,46 +1,6 @@
 {
   "positions_top20": [
     {
-      "id": "AVB_2026-05-18",
-      "ticker": "AVB",
-      "sector": "Real Estate",
-      "entry_date": "2026-05-18",
-      "entry_price": 185.25,
-      "entry_rsi2": 4.797059782100391,
-      "entry_rsi30": 58.139352079432996,
-      "entry_rs_vs_spy": 0.8177110219242056,
-      "entry_volume_ratio": 0.36808189221816223,
-      "entry_score": 8.064000918814235,
-      "current_price": 185.25,
-      "current_pnl_pct": 0.0,
-      "current_pnl_dollars": 0.0,
-      "hold_days": 0,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
-      "id": "INVH_2026-05-18",
-      "ticker": "INVH",
-      "sector": "Real Estate",
-      "entry_date": "2026-05-18",
-      "entry_price": 28.75,
-      "entry_rsi2": 4.214624000802118,
-      "entry_rsi30": 59.95072138847659,
-      "entry_rs_vs_spy": 0.4746314625140302,
-      "entry_volume_ratio": 1.0362165081944172,
-      "entry_score": 12.22646600188188,
-      "current_price": 28.75,
-      "current_pnl_pct": 0.0,
-      "current_pnl_dollars": 0.0,
-      "hold_days": 0,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
       "id": "CRSR_2026-05-18",
       "ticker": "CRSR",
       "sector": "Technology Hardware, Storage & Peripherals",
@@ -82,46 +42,6 @@
     }
   ],
   "positions_all": [
-    {
-      "id": "AVB_2026-05-18",
-      "ticker": "AVB",
-      "sector": "Real Estate",
-      "entry_date": "2026-05-18",
-      "entry_price": 185.25,
-      "entry_rsi2": 4.797059782100391,
-      "entry_rsi30": 58.139352079432996,
-      "entry_rs_vs_spy": 0.8177110219242056,
-      "entry_volume_ratio": 0.36808189221816223,
-      "entry_score": 8.064000918814235,
-      "current_price": 185.25,
-      "current_pnl_pct": 0.0,
-      "current_pnl_dollars": 0.0,
-      "hold_days": 0,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
-      "id": "INVH_2026-05-18",
-      "ticker": "INVH",
-      "sector": "Real Estate",
-      "entry_date": "2026-05-18",
-      "entry_price": 28.75,
-      "entry_rsi2": 4.214624000802118,
-      "entry_rsi30": 59.95072138847659,
-      "entry_rs_vs_spy": 0.4746314625140302,
-      "entry_volume_ratio": 1.0362165081944172,
-      "entry_score": 12.22646600188188,
-      "current_price": 28.75,
-      "current_pnl_pct": 0.0,
-      "current_pnl_dollars": 0.0,
-      "hold_days": 0,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
     {
       "id": "CRSR_2026-05-18",
       "ticker": "CRSR",
@@ -165,17 +85,17 @@
   ],
   "summary": {
     "top20": {
-      "open_count": 4,
+      "open_count": 2,
       "total_unrealized_pnl": 0.0,
-      "total_capital_deployed": 20000
+      "total_capital_deployed": 10000
     },
     "all": {
-      "open_count": 4,
+      "open_count": 2,
       "total_unrealized_pnl": 0.0,
-      "total_capital_deployed": 20000
+      "total_capital_deployed": 10000
     }
   },
-  "last_updated": "2026-05-19T03:23:39.936593Z",
+  "last_updated": "2026-05-19T13:11:15.915873Z",
   "spy_price": 738.6500244140625,
   "spy_above_200sma": true
 }

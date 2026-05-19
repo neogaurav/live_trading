@@ -1,6 +1,39 @@
 {
   "closed_top20": [],
-  "closed_all": [],
+  "closed_all": [
+    {
+      "id": "AVB_2026-05-18",
+      "ticker": "AVB",
+      "sector": "Real Estate",
+      "entry_date": "2026-05-18",
+      "exit_date": "2026-05-18",
+      "entry_price": 185.25,
+      "exit_price": 185.25,
+      "pnl_pct": 0.0,
+      "pnl_dollars": 0.0,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 8.064000918814235,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "INVH_2026-05-18",
+      "ticker": "INVH",
+      "sector": "Real Estate",
+      "entry_date": "2026-05-18",
+      "exit_date": "2026-05-18",
+      "entry_price": 28.75,
+      "exit_price": 28.75,
+      "pnl_pct": 0.0,
+      "pnl_dollars": 0.0,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 12.22646600188188,
+      "was_in_top20": false,
+      "position_size": 5000
+    }
+  ],
   "performance": {
     "top20": {
       "total_trades": 0,
@@ -13,9 +46,9 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 0,
+      "total_trades": 2,
       "winners": 0,
-      "losers": 0,
+      "losers": 2,
       "win_rate": 0.0,
       "total_pnl": 0.0,
       "profit_factor": 0.0,
