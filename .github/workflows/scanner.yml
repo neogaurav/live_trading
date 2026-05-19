@@ -1,0 +1,57 @@
+name: RSI2_Ultra Scanner
+
+on:
+  schedule:
+    # Run hourly 8 AM - 6 PM ET (12:00 - 22:00 UTC) Monday-Friday
+    # Note: GitHub Actions cron may have 5-30 min variance
+    - cron: '0 12 * * 1-5'   # 8 AM ET
+    - cron: '0 13 * * 1-5'   # 9 AM ET
+    - cron: '0 14 * * 1-5'   # 10 AM ET
+    - cron: '0 15 * * 1-5'   # 11 AM ET
+    - cron: '0 16 * * 1-5'   # 12 PM ET
+    - cron: '0 17 * * 1-5'   # 1 PM ET
+    - cron: '0 18 * * 1-5'   # 2 PM ET
+    - cron: '0 19 * * 1-5'   # 3 PM ET
+    - cron: '0 20 * * 1-5'   # 4 PM ET
+    - cron: '0 21 * * 1-5'   # 5 PM ET
+    - cron: '0 22 * * 1-5'   # 6 PM ET
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: Run scanner
+        run: python backend/scanner.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Commit data changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add backend/data/*.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update positions $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          fi

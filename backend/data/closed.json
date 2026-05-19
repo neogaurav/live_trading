@@ -1,0 +1,26 @@
+{
+  "closed_top20": [],
+  "closed_all": [],
+  "performance": {
+    "top20": {
+      "total_trades": 0,
+      "winners": 0,
+      "losers": 0,
+      "win_rate": 0.0,
+      "total_pnl": 0.0,
+      "profit_factor": 0.0,
+      "avg_win": 0.0,
+      "avg_loss": 0.0
+    },
+    "all": {
+      "total_trades": 0,
+      "winners": 0,
+      "losers": 0,
+      "win_rate": 0.0,
+      "total_pnl": 0.0,
+      "profit_factor": 0.0,
+      "avg_win": 0.0,
+      "avg_loss": 0.0
+    }
+  }
+}
