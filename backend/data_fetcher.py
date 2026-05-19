@@ -5,6 +5,7 @@ import time
 import logging
 from typing import List, Dict, Optional, Tuple
 from datetime import datetime, timedelta
+from io import StringIO
 
 import pandas as pd
 import numpy as np
@@ -31,7 +32,7 @@ def _fetch_wiki_table(url: str) -> Optional[pd.DataFrame]:
     try:
         response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
-        tables = pd.read_html(response.text, header=0)
+        tables = pd.read_html(StringIO(response.text), header=0)
         return tables[0] if tables else None
     except Exception as e:
         logger.error(f"Error fetching {url}: {e}")
