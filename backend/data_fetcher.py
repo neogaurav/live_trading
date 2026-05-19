@@ -21,21 +21,34 @@ MAX_RETRIES = 3
 RETRY_DELAY_SECONDS = 5
 
 
+def _fetch_wiki_table(url: str) -> Optional[pd.DataFrame]:
+    """Fetch Wikipedia table with proper headers to avoid 403."""
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+    }
+    try:
+        response = requests.get(url, headers=headers, timeout=30)
+        response.raise_for_status()
+        tables = pd.read_html(response.text, header=0)
+        return tables[0] if tables else None
+    except Exception as e:
+        logger.error(f"Error fetching {url}: {e}")
+        return None
+
+
 def get_sp1500_tickers() -> List[Dict[str, str]]:
     """
     Fetch S&P 1500 tickers (S&P 500 + S&P 400 + S&P 600) from Wikipedia.
     Returns list of dicts with 'ticker' and 'sector' keys.
-    Uses pandas read_html for more reliable parsing.
     """
     tickers = []
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
     # S&P 500
     try:
-        url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-        tables = pd.read_html(url, header=0)
-        if tables:
-            df = tables[0]
+        df = _fetch_wiki_table("https://en.wikipedia.org/wiki/List_of_S%26P_500_companies")
+        if df is not None:
             # Find the symbol and sector columns
             symbol_col = None
             sector_col = None
@@ -47,7 +60,7 @@ def get_sp1500_tickers() -> List[Dict[str, str]]:
                     sector_col = col
 
             if symbol_col is None:
-                symbol_col = df.columns[0]  # First column is usually symbol
+                symbol_col = df.columns[0]
             if sector_col is None:
                 sector_col = df.columns[3] if len(df.columns) > 3 else None
 
@@ -58,17 +71,14 @@ def get_sp1500_tickers() -> List[Dict[str, str]]:
                     tickers.append({'ticker': ticker, 'sector': sector})
         logger.info(f"S&P 500: {len(tickers)} tickers")
     except Exception as e:
-        logger.error(f"Error fetching S&P 500: {e}")
+        logger.error(f"Error processing S&P 500: {e}")
 
     sp500_count = len(tickers)
 
     # S&P 400 (Mid Cap)
     try:
-        url = "https://en.wikipedia.org/wiki/List_of_S%26P_400_companies"
-        tables = pd.read_html(url, header=0)
-        if tables:
-            df = tables[0]
-            # Find columns - S&P 400 typically has: Company, Ticker, GICS Sector
+        df = _fetch_wiki_table("https://en.wikipedia.org/wiki/List_of_S%26P_400_companies")
+        if df is not None:
             symbol_col = None
             sector_col = None
             for col in df.columns:
@@ -90,17 +100,14 @@ def get_sp1500_tickers() -> List[Dict[str, str]]:
                     tickers.append({'ticker': ticker, 'sector': sector})
         logger.info(f"S&P 400: {len(tickers) - sp500_count} tickers")
     except Exception as e:
-        logger.error(f"Error fetching S&P 400: {e}")
+        logger.error(f"Error processing S&P 400: {e}")
 
     sp400_count = len(tickers)
 
     # S&P 600 (Small Cap)
     try:
-        url = "https://en.wikipedia.org/wiki/List_of_S%26P_600_companies"
-        tables = pd.read_html(url, header=0)
-        if tables:
-            df = tables[0]
-            # Find columns
+        df = _fetch_wiki_table("https://en.wikipedia.org/wiki/List_of_S%26P_600_companies")
+        if df is not None:
             symbol_col = None
             sector_col = None
             for col in df.columns:
@@ -122,7 +129,7 @@ def get_sp1500_tickers() -> List[Dict[str, str]]:
                     tickers.append({'ticker': ticker, 'sector': sector})
         logger.info(f"S&P 600: {len(tickers) - sp400_count} tickers")
     except Exception as e:
-        logger.error(f"Error fetching S&P 600: {e}")
+        logger.error(f"Error processing S&P 600: {e}")
 
     logger.info(f"Total S&P 1500 tickers: {len(tickers)}")
     return tickers
