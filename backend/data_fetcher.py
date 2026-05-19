@@ -25,23 +25,38 @@ def get_sp1500_tickers() -> List[Dict[str, str]]:
     """
     Fetch S&P 1500 tickers (S&P 500 + S&P 400 + S&P 600) from Wikipedia.
     Returns list of dicts with 'ticker' and 'sector' keys.
+    Uses pandas read_html for more reliable parsing.
     """
     tickers = []
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
     # S&P 500
     try:
         url = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-        response = requests.get(url, timeout=30)
-        soup = BeautifulSoup(response.text, 'lxml')
-        table = soup.find('table', {'id': 'constituents'})
-        if table:
-            for row in table.find_all('tr')[1:]:
-                cols = row.find_all('td')
-                if len(cols) >= 4:
-                    ticker = cols[0].text.strip().replace('.', '-')
-                    sector = cols[3].text.strip()
+        tables = pd.read_html(url, header=0)
+        if tables:
+            df = tables[0]
+            # Find the symbol and sector columns
+            symbol_col = None
+            sector_col = None
+            for col in df.columns:
+                col_lower = str(col).lower()
+                if 'symbol' in col_lower or 'ticker' in col_lower:
+                    symbol_col = col
+                elif 'sector' in col_lower or 'gics sector' in col_lower:
+                    sector_col = col
+
+            if symbol_col is None:
+                symbol_col = df.columns[0]  # First column is usually symbol
+            if sector_col is None:
+                sector_col = df.columns[3] if len(df.columns) > 3 else None
+
+            for _, row in df.iterrows():
+                ticker = str(row[symbol_col]).strip().replace('.', '-')
+                sector = str(row[sector_col]).strip() if sector_col else 'Unknown'
+                if ticker and ticker != 'nan':
                     tickers.append({'ticker': ticker, 'sector': sector})
-        logger.info(f"S&P 500: {len([t for t in tickers])} tickers")
+        logger.info(f"S&P 500: {len(tickers)} tickers")
     except Exception as e:
         logger.error(f"Error fetching S&P 500: {e}")
 
@@ -50,15 +65,28 @@ def get_sp1500_tickers() -> List[Dict[str, str]]:
     # S&P 400 (Mid Cap)
     try:
         url = "https://en.wikipedia.org/wiki/List_of_S%26P_400_companies"
-        response = requests.get(url, timeout=30)
-        soup = BeautifulSoup(response.text, 'lxml')
-        table = soup.find('table', {'class': 'wikitable'})
-        if table:
-            for row in table.find_all('tr')[1:]:
-                cols = row.find_all('td')
-                if len(cols) >= 3:
-                    ticker = cols[1].text.strip().replace('.', '-')
-                    sector = cols[2].text.strip() if len(cols) > 2 else 'Unknown'
+        tables = pd.read_html(url, header=0)
+        if tables:
+            df = tables[0]
+            # Find columns - S&P 400 typically has: Company, Ticker, GICS Sector
+            symbol_col = None
+            sector_col = None
+            for col in df.columns:
+                col_lower = str(col).lower()
+                if 'symbol' in col_lower or 'ticker' in col_lower:
+                    symbol_col = col
+                elif 'sector' in col_lower or 'gics' in col_lower:
+                    sector_col = col
+
+            if symbol_col is None:
+                symbol_col = df.columns[1] if len(df.columns) > 1 else df.columns[0]
+            if sector_col is None:
+                sector_col = df.columns[2] if len(df.columns) > 2 else None
+
+            for _, row in df.iterrows():
+                ticker = str(row[symbol_col]).strip().replace('.', '-')
+                sector = str(row[sector_col]).strip() if sector_col else 'Unknown'
+                if ticker and ticker != 'nan' and not ticker.startswith('–'):
                     tickers.append({'ticker': ticker, 'sector': sector})
         logger.info(f"S&P 400: {len(tickers) - sp500_count} tickers")
     except Exception as e:
@@ -69,15 +97,28 @@ def get_sp1500_tickers() -> List[Dict[str, str]]:
     # S&P 600 (Small Cap)
     try:
         url = "https://en.wikipedia.org/wiki/List_of_S%26P_600_companies"
-        response = requests.get(url, timeout=30)
-        soup = BeautifulSoup(response.text, 'lxml')
-        table = soup.find('table', {'class': 'wikitable'})
-        if table:
-            for row in table.find_all('tr')[1:]:
-                cols = row.find_all('td')
-                if len(cols) >= 3:
-                    ticker = cols[1].text.strip().replace('.', '-')
-                    sector = cols[2].text.strip() if len(cols) > 2 else 'Unknown'
+        tables = pd.read_html(url, header=0)
+        if tables:
+            df = tables[0]
+            # Find columns
+            symbol_col = None
+            sector_col = None
+            for col in df.columns:
+                col_lower = str(col).lower()
+                if 'symbol' in col_lower or 'ticker' in col_lower:
+                    symbol_col = col
+                elif 'sector' in col_lower or 'gics' in col_lower:
+                    sector_col = col
+
+            if symbol_col is None:
+                symbol_col = df.columns[1] if len(df.columns) > 1 else df.columns[0]
+            if sector_col is None:
+                sector_col = df.columns[2] if len(df.columns) > 2 else None
+
+            for _, row in df.iterrows():
+                ticker = str(row[symbol_col]).strip().replace('.', '-')
+                sector = str(row[sector_col]).strip() if sector_col else 'Unknown'
+                if ticker and ticker != 'nan' and not ticker.startswith('–'):
                     tickers.append({'ticker': ticker, 'sector': sector})
         logger.info(f"S&P 600: {len(tickers) - sp400_count} tickers")
     except Exception as e:
