@@ -243,6 +243,14 @@ def calculate_indicators(df: pd.DataFrame) -> pd.DataFrame:
     """
     df = df.copy()
 
+    # Flatten MultiIndex columns if present (happens with single ticker yf.download)
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+
+    # Ensure we have Series not DataFrames for each column
+    close = df['Close'].squeeze() if hasattr(df['Close'], 'squeeze') else df['Close']
+    volume = df['Volume'].squeeze() if hasattr(df['Volume'], 'squeeze') else df['Volume']
+
     # RSI calculation helper
     def calc_rsi(series: pd.Series, period: int) -> pd.Series:
         delta = series.diff()
@@ -254,20 +262,20 @@ def calculate_indicators(df: pd.DataFrame) -> pd.DataFrame:
         return 100 - (100 / (1 + rs))
 
     # RSI indicators
-    df['RSI_2'] = calc_rsi(df['Close'], 2)
-    df['RSI_14'] = calc_rsi(df['Close'], 14)
-    df['RSI_30'] = calc_rsi(df['Close'], 30)
+    df['RSI_2'] = calc_rsi(close, 2)
+    df['RSI_14'] = calc_rsi(close, 14)
+    df['RSI_30'] = calc_rsi(close, 30)
 
     # Moving averages
-    df['SMA_200'] = df['Close'].rolling(window=200).mean()
-    df['SMA_50'] = df['Close'].rolling(window=50).mean()
+    df['SMA_200'] = close.rolling(window=200).mean()
+    df['SMA_50'] = close.rolling(window=50).mean()
 
     # Volume metrics
-    df['Volume_SMA_20'] = df['Volume'].rolling(window=20).mean()
-    df['Volume_Ratio'] = df['Volume'] / df['Volume_SMA_20']
+    df['Volume_SMA_20'] = volume.rolling(window=20).mean()
+    df['Volume_Ratio'] = volume / df['Volume_SMA_20']
 
     # Price change
-    df['Pct_Change'] = df['Close'].pct_change() * 100
+    df['Pct_Change'] = close.pct_change() * 100
 
     return df
 
