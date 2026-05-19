@@ -146,8 +146,8 @@ export function OpenPositionGrid({
     return cols;
   }, [showInTop20Column, acknowledgedIds, onAcknowledge]);
 
-  const getRowClass = useCallback((params: { data: OpenPosition }) => {
-    if (params.data.status === 'pending_close') {
+  const getRowClass = useCallback((params: { data: OpenPosition | undefined }) => {
+    if (params.data?.status === 'pending_close') {
       return 'row-pending-close';
     }
     return '';
