@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import { PositionsData, ClosedData } from '../types';
-import { formatCurrency, formatDateTime } from '../utils/api';
+import { formatCurrency, formatDateTime, getStoredToken, triggerScannerWorkflow } from '../utils/api';
 
 interface SummaryProps {
   positions: PositionsData | null;
@@ -10,10 +11,51 @@ interface SummaryProps {
 }
 
 export function Summary({ positions, closed, lastRefresh, onRefresh, loading }: SummaryProps) {
+  const [triggerStatus, setTriggerStatus] = useState<{ type: 'success' | 'error' | null; message: string }>({ type: null, message: '' });
+  const [isTriggering, setIsTriggering] = useState(false);
+
   const top20Summary = positions?.summary.top20;
   const allSummary = positions?.summary.all;
   const top20Perf = closed?.performance.top20;
   const allPerf = closed?.performance.all;
+
+  const handleTriggerScan = async () => {
+    // Check for stored token first
+    let token = getStoredToken();
+
+    if (!token) {
+      // Prompt for token
+      token = window.prompt(
+        'Enter your GitHub Personal Access Token (PAT):\n\n' +
+        'To create one:\n' +
+        '1. Go to GitHub Settings > Developer settings > Personal access tokens > Tokens (classic)\n' +
+        '2. Generate new token with "repo" and "workflow" scopes\n\n' +
+        'Token will be stored in session only (cleared on tab close):'
+      );
+
+      if (!token) {
+        return; // User cancelled
+      }
+    }
+
+    setIsTriggering(true);
+    setTriggerStatus({ type: null, message: '' });
+
+    const result = await triggerScannerWorkflow(token);
+
+    setTriggerStatus({
+      type: result.success ? 'success' : 'error',
+      message: result.message
+    });
+    setIsTriggering(false);
+
+    // Auto-clear success message after 5 seconds
+    if (result.success) {
+      setTimeout(() => {
+        setTriggerStatus({ type: null, message: '' });
+      }, 5000);
+    }
+  };
 
   return (
     <div className="summary">
@@ -27,11 +69,39 @@ export function Summary({ positions, closed, lastRefresh, onRefresh, loading }: 
             SPY: ${positions?.spy_price?.toFixed(2) || '--'}
             ({positions?.spy_above_200sma ? 'Above' : 'Below'} 200 SMA)
           </span>
-          <button onClick={onRefresh} disabled={loading} className="refresh-btn">
-            {loading ? 'Loading...' : 'Refresh'}
-          </button>
+          <div className="button-group">
+            <button onClick={onRefresh} disabled={loading} className="refresh-btn">
+              {loading ? 'Loading...' : 'Refresh'}
+            </button>
+            <button
+              onClick={handleTriggerScan}
+              disabled={isTriggering}
+              className="trigger-btn"
+              title="Manually trigger the scanner workflow"
+            >
+              {isTriggering ? 'Triggering...' : 'Run Scanner'}
+            </button>
+          </div>
         </div>
       </div>
+
+      {triggerStatus.type && (
+        <div className={`trigger-status ${triggerStatus.type}`}>
+          {triggerStatus.message}
+          {triggerStatus.type === 'error' && (
+            <button
+              className="retry-token-btn"
+              onClick={() => {
+                sessionStorage.removeItem('github_pat_token');
+                setTriggerStatus({ type: null, message: '' });
+                handleTriggerScan();
+              }}
+            >
+              Try different token
+            </button>
+          )}
+        </div>
+      )}
 
       <div className="summary-cards">
         <div className="summary-card top20">

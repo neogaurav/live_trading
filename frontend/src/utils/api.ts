@@ -55,3 +55,51 @@ export function formatDateTime(isoStr: string | null): string {
     timeZoneName: 'short'
   });
 }
+
+// GitHub API for triggering workflows
+const GITHUB_API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/scanner.yml/dispatches`;
+const TOKEN_KEY = 'github_pat_token';
+
+export function getStoredToken(): string | null {
+  return sessionStorage.getItem(TOKEN_KEY);
+}
+
+export function storeToken(token: string): void {
+  sessionStorage.setItem(TOKEN_KEY, token);
+}
+
+export function clearToken(): void {
+  sessionStorage.removeItem(TOKEN_KEY);
+}
+
+export async function triggerScannerWorkflow(token: string): Promise<{ success: boolean; message: string }> {
+  try {
+    const response = await fetch(GITHUB_API_URL, {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        ref: 'main'
+      })
+    });
+
+    if (response.status === 204) {
+      // Store token on success for future use
+      storeToken(token);
+      return { success: true, message: 'Scanner workflow triggered! Check Actions tab for progress.' };
+    } else if (response.status === 401) {
+      clearToken();
+      return { success: false, message: 'Invalid token. Please check your PAT.' };
+    } else if (response.status === 404) {
+      return { success: false, message: 'Workflow not found. Check repo settings.' };
+    } else {
+      const error = await response.json().catch(() => ({}));
+      return { success: false, message: `Failed: ${error.message || response.statusText}` };
+    }
+  } catch (error) {
+    return { success: false, message: `Network error: ${error instanceof Error ? error.message : 'Unknown'}` };
+  }
+}
