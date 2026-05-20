@@ -80,6 +80,54 @@
       "entry_score": 15.797108130901115,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "DAL_2026-05-20",
+      "ticker": "DAL",
+      "sector": "Industrials",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 73.62000274658203,
+      "exit_price": 73.61000061035156,
+      "pnl_pct": -0.013586166608681172,
+      "pnl_dollars": -0.6793083304340586,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 14.471520551877918,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "HWM_2026-05-20",
+      "ticker": "HWM",
+      "sector": "Industrials",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 262.5299987792969,
+      "exit_price": 262.0,
+      "pnl_pct": -0.2018812256737279,
+      "pnl_dollars": -10.094061283686395,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.939259427184016,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "MSM_2026-05-20",
+      "ticker": "MSM",
+      "sector": "Trading Companies & Distributors",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 106.1449966430664,
+      "exit_price": 105.9800033569336,
+      "pnl_pct": -0.15544141631812503,
+      "pnl_dollars": -7.772070815906251,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.022602562403428,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -94,14 +142,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 5,
+      "total_trades": 8,
       "winners": 5,
-      "losers": 0,
-      "win_rate": 100.0,
-      "total_pnl": 350.76,
-      "profit_factor": 0.0,
+      "losers": 3,
+      "win_rate": 62.5,
+      "total_pnl": 332.21,
+      "profit_factor": 18.91,
       "avg_win": 70.15,
-      "avg_loss": 0.0
+      "avg_loss": 6.18
     }
   },
   "strategy": "UltraQ_90_RS2"
