@@ -1,6 +1,23 @@
 {
   "closed_top20": [],
-  "closed_all": [],
+  "closed_all": [
+    {
+      "id": "INDV_2026-05-19",
+      "ticker": "INDV",
+      "sector": "Pharmaceuticals",
+      "entry_date": "2026-05-19",
+      "exit_date": "2026-05-20",
+      "entry_price": 36.9900016784668,
+      "exit_price": 37.790000915527344,
+      "pnl_pct": 2.1627445276009682,
+      "pnl_dollars": 108.13722638004842,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 25.498609223996958,
+      "was_in_top20": false,
+      "position_size": 5000
+    }
+  ],
   "performance": {
     "top20": {
       "total_trades": 0,
@@ -13,13 +30,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 0,
-      "winners": 0,
+      "total_trades": 1,
+      "winners": 1,
       "losers": 0,
-      "win_rate": 0.0,
-      "total_pnl": 0.0,
+      "win_rate": 100.0,
+      "total_pnl": 108.14,
       "profit_factor": 0.0,
-      "avg_win": 0.0,
+      "avg_win": 108.14,
       "avg_loss": 0.0
     }
   },
