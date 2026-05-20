@@ -32,6 +32,22 @@
       "entry_score": 12.99084168691041,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "MSM_2026-05-20",
+      "ticker": "MSM",
+      "sector": "Trading Companies & Distributors",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 104.77999877929688,
+      "exit_price": 105.18499755859375,
+      "pnl_pct": 0.3865229853170282,
+      "pnl_dollars": 19.326149265851413,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 11.505358647266299,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -46,13 +62,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 2,
-      "winners": 2,
+      "total_trades": 3,
+      "winners": 3,
       "losers": 0,
       "win_rate": 100.0,
-      "total_pnl": 131.94,
+      "total_pnl": 151.26,
       "profit_factor": 0.0,
-      "avg_win": 65.97,
+      "avg_win": 50.42,
       "avg_loss": 0.0
     }
   },
