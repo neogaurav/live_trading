@@ -144,6 +144,70 @@
       "entry_score": 18.884627385257104,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "VMI_2026-05-20",
+      "ticker": "VMI",
+      "sector": "Industrial Machinery & Supplies & Components",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 504.0199890136719,
+      "exit_price": 505.7300109863281,
+      "pnl_pct": 0.3392766179775242,
+      "pnl_dollars": 16.96383089887621,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 18.377931779059487,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "DAL_2026-05-20",
+      "ticker": "DAL",
+      "sector": "Industrials",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 73.76000213623047,
+      "exit_price": 74.62010192871094,
+      "pnl_pct": 1.1660788605888595,
+      "pnl_dollars": 58.303943029442976,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.256777280708965,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "HWM_2026-05-20",
+      "ticker": "HWM",
+      "sector": "Industrials",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 261.9599914550781,
+      "exit_price": 261.2699890136719,
+      "pnl_pct": -0.263399932781172,
+      "pnl_dollars": -13.169996639058601,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.964118376163512,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "MSM_2026-05-20",
+      "ticker": "MSM",
+      "sector": "Trading Companies & Distributors",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 105.41999816894531,
+      "exit_price": 105.80000305175781,
+      "pnl_pct": 0.3604675482952624,
+      "pnl_dollars": 18.023377414763118,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 12.551962074929602,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -158,14 +222,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 9,
-      "winners": 5,
-      "losers": 4,
-      "win_rate": 55.55555555555556,
-      "total_pnl": 305.91,
-      "profit_factor": 7.82,
-      "avg_win": 70.15,
-      "avg_loss": 11.21
+      "total_trades": 13,
+      "winners": 8,
+      "losers": 5,
+      "win_rate": 61.53846153846154,
+      "total_pnl": 386.03,
+      "profit_factor": 7.65,
+      "avg_win": 55.51,
+      "avg_loss": 11.6
     }
   },
   "strategy": "UltraQ_90_RS2"
