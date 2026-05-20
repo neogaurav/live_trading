@@ -128,6 +128,22 @@
       "entry_score": 13.022602562403428,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "TKR_2026-05-20",
+      "ticker": "TKR",
+      "sector": "Industrial Machinery & Supplies & Components",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 117.86000061035156,
+      "exit_price": 117.23999786376953,
+      "pnl_pct": -0.526050181037907,
+      "pnl_dollars": -26.30250905189535,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 18.884627385257104,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -142,14 +158,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 8,
+      "total_trades": 9,
       "winners": 5,
-      "losers": 3,
-      "win_rate": 62.5,
-      "total_pnl": 332.21,
-      "profit_factor": 18.91,
+      "losers": 4,
+      "win_rate": 55.55555555555556,
+      "total_pnl": 305.91,
+      "profit_factor": 7.82,
       "avg_win": 70.15,
-      "avg_loss": 6.18
+      "avg_loss": 11.21
     }
   },
   "strategy": "UltraQ_90_RS2"
