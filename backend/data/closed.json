@@ -272,6 +272,22 @@
       "entry_score": 19.031956010695442,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "TKR_2026-05-20",
+      "ticker": "TKR",
+      "sector": "Industrial Machinery & Supplies & Components",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 116.76000213623047,
+      "exit_price": 117.16000366210938,
+      "pnl_pct": 0.34258437697884947,
+      "pnl_dollars": 17.12921884894247,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 19.41374772265099,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -286,13 +302,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 17,
-      "winners": 11,
+      "total_trades": 18,
+      "winners": 12,
       "losers": 6,
-      "win_rate": 64.70588235294117,
-      "total_pnl": 407.36,
-      "profit_factor": 7.54,
-      "avg_win": 42.7,
+      "win_rate": 66.66666666666666,
+      "total_pnl": 424.49,
+      "profit_factor": 7.81,
+      "avg_win": 40.57,
       "avg_loss": 10.38
     }
   },
