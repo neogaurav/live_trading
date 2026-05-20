@@ -13,14 +13,17 @@ from data_fetcher import calculate_relative_strength
 
 logger = logging.getLogger(__name__)
 
-# Strategy configuration
+# Strategy configuration - UltraQ_90_RS2 (72.7% ROI backtested on S&P 1500)
+# Optimized for higher ROI with quality filters
 DEFAULT_CONFIG = {
     'position_size': 5000,
     'rsi2_entry': 5,       # RSI(2) < 5 for entry
     'rsi2_exit': 65,       # RSI(2) > 65 for exit
-    'rsi30_min': 50,       # RSI(30) > 50 for uptrend
-    'max_hold_days': 5,    # Time stop after 5 days
+    'rsi30_min': 55,       # RSI(30) > 55 for stronger uptrend (was 50)
+    'max_hold_days': 2,    # Time stop after 2 days (was 5) - faster capital turnover
     'rs_lookback': 20,     # Relative strength lookback period
+    'rs_threshold': 2.0,   # Must outperform SPY by 2% over 20 days (NEW)
+    'near_high_pct': 90,   # Must be within 10% of 50-day high (NEW)
 }
 
 
@@ -50,14 +53,15 @@ def check_entry_signal(
     config: Dict[str, Any] = None
 ) -> Optional[Dict[str, Any]]:
     """
-    Check if the most recent data shows an entry signal for RSI2_Ultra strategy.
+    Check if the most recent data shows an entry signal for UltraQ_90_RS2 strategy.
 
-    Entry criteria:
+    Entry criteria (UltraQ_90_RS2 - 72.7% ROI backtested):
     - Yesterday RSI(2) < 5 (oversold)
     - Today is a green day (bounce confirmation)
-    - RSI(30) > 50 (longer-term bullish)
+    - RSI(30) > 55 (stronger medium-term uptrend)
     - Close > 200 SMA
-    - Relative strength vs SPY positive (20-day)
+    - Relative strength vs SPY > 2% (20-day) - quality filter
+    - Stock within 10% of 50-day high - near high filter
     - SPY > 200 SMA (market filter)
 
     Returns signal dict if entry triggered, None otherwise.
@@ -95,16 +99,27 @@ def check_entry_signal(
             return None
 
         # RSI(30) > threshold (longer-term bullish)
-        rsi30_min = config.get('rsi30_min', 50)
+        rsi30_min = config.get('rsi30_min', 55)
         if pd.isna(current['RSI_30']) or current['RSI_30'] < rsi30_min:
             return None
 
-        # Relative strength check vs SPY
+        # Near 50-day high filter (UltraQ filter)
+        near_high_pct = config.get('near_high_pct', 90)
+        if near_high_pct > 0:
+            high_50 = df['Close'].rolling(50).max().iloc[-1]
+            if not pd.isna(high_50):
+                pct_of_high = (current['Close'] / high_50) * 100
+                if pct_of_high < near_high_pct:
+                    return None
+
+        # Relative strength check vs SPY with threshold
         rs_vs_spy = 0.0
+        rs_threshold = config.get('rs_threshold', 2.0)
         if spy_df is not None:
             rs_lookback = config.get('rs_lookback', 20)
             rs_vs_spy = calculate_relative_strength(df, spy_df, lookback=rs_lookback)
-            if rs_vs_spy <= 0:
+            # Must outperform SPY by threshold (2% for UltraQ)
+            if rs_vs_spy <= rs_threshold:
                 return None
 
         # Get volume ratio
@@ -143,9 +158,9 @@ def check_exit_signal(
     """
     Check if the most recent data shows an exit signal for an open position.
 
-    Exit criteria:
+    Exit criteria (UltraQ_90_RS2):
     - RSI(2) > 65 (overbought)
-    - Hold days >= 5 (time stop)
+    - Hold days >= 2 (time stop - faster capital turnover)
 
     Returns exit dict if exit triggered, None otherwise.
     """

@@ -1,55 +1,6 @@
 {
   "closed_top20": [],
-  "closed_all": [
-    {
-      "id": "AVB_2026-05-18",
-      "ticker": "AVB",
-      "sector": "Real Estate",
-      "entry_date": "2026-05-18",
-      "exit_date": "2026-05-18",
-      "entry_price": 185.25,
-      "exit_price": 185.25,
-      "pnl_pct": 0.0,
-      "pnl_dollars": 0.0,
-      "hold_days": 0,
-      "exit_reason": "RSI2 > 65",
-      "entry_score": 8.064000918814235,
-      "was_in_top20": false,
-      "position_size": 5000
-    },
-    {
-      "id": "INVH_2026-05-18",
-      "ticker": "INVH",
-      "sector": "Real Estate",
-      "entry_date": "2026-05-18",
-      "exit_date": "2026-05-18",
-      "entry_price": 28.75,
-      "exit_price": 28.75,
-      "pnl_pct": 0.0,
-      "pnl_dollars": 0.0,
-      "hold_days": 0,
-      "exit_reason": "RSI2 > 65",
-      "entry_score": 12.22646600188188,
-      "was_in_top20": false,
-      "position_size": 5000
-    },
-    {
-      "id": "INDV_2026-05-19",
-      "ticker": "INDV",
-      "sector": "Pharmaceuticals",
-      "entry_date": "2026-05-19",
-      "exit_date": "2026-05-19",
-      "entry_price": 36.68000030517578,
-      "exit_price": 37.470001220703125,
-      "pnl_pct": 2.1537647463319987,
-      "pnl_dollars": 107.68823731659994,
-      "hold_days": 0,
-      "exit_reason": "RSI2 > 65",
-      "entry_score": 21.62734974570728,
-      "was_in_top20": false,
-      "position_size": 5000
-    }
-  ],
+  "closed_all": [],
   "performance": {
     "top20": {
       "total_trades": 0,
@@ -62,14 +13,15 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 3,
-      "winners": 1,
-      "losers": 2,
-      "win_rate": 33.33333333333333,
-      "total_pnl": 107.69,
+      "total_trades": 0,
+      "winners": 0,
+      "losers": 0,
+      "win_rate": 0.0,
+      "total_pnl": 0.0,
       "profit_factor": 0.0,
-      "avg_win": 107.69,
+      "avg_win": 0.0,
       "avg_loss": 0.0
     }
-  }
+  },
+  "strategy": "UltraQ_90_RS2"
 }
