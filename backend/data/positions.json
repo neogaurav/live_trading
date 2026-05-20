@@ -267,7 +267,7 @@
       "entry_date": "2026-05-20",
       "entry_price": 117.19999694824219,
       "entry_rsi2": 3.3836810088659632,
-      "entry_rsi30": 58.72793861307895,
+      "entry_rsi30": 58.727939000681,
       "entry_rs_vs_spy": 5.8759190194817235,
       "entry_volume_ratio": 1.83457618919907,
       "entry_score": 23.281437947745147,
@@ -549,7 +549,7 @@
       "entry_date": "2026-05-20",
       "entry_price": 117.19999694824219,
       "entry_rsi2": 3.3836810088659632,
-      "entry_rsi30": 58.72793861307895,
+      "entry_rsi30": 58.727939000681,
       "entry_rs_vs_spy": 5.8759190194817235,
       "entry_volume_ratio": 1.83457618919907,
       "entry_score": 23.281437947745147,
@@ -575,7 +575,7 @@
       "total_capital_deployed": 70000
     }
   },
-  "last_updated": "2026-05-20T22:26:18.455638Z",
+  "last_updated": "2026-05-20T23:12:48.505246Z",
   "spy_price": 741.25,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
