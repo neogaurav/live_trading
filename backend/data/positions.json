@@ -1,21 +1,63 @@
 {
-  "positions_top20": [],
-  "positions_all": [],
+  "positions_top20": [
+    {
+      "id": "INDV_2026-05-19",
+      "ticker": "INDV",
+      "sector": "Pharmaceuticals",
+      "entry_date": "2026-05-19",
+      "entry_price": 36.9900016784668,
+      "entry_rsi2": 1.690010966116617,
+      "entry_rsi30": 56.550479502045626,
+      "entry_rs_vs_spy": 10.55769185454998,
+      "entry_volume_ratio": 0.6641878603360423,
+      "entry_score": 25.498609223996958,
+      "current_price": 36.9900016784668,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
+  "positions_all": [
+    {
+      "id": "INDV_2026-05-19",
+      "ticker": "INDV",
+      "sector": "Pharmaceuticals",
+      "entry_date": "2026-05-19",
+      "entry_price": 36.9900016784668,
+      "entry_rsi2": 1.690010966116617,
+      "entry_rsi30": 56.550479502045626,
+      "entry_rs_vs_spy": 10.55769185454998,
+      "entry_volume_ratio": 0.6641878603360423,
+      "entry_score": 25.498609223996958,
+      "current_price": 36.9900016784668,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
   "summary": {
     "top20": {
-      "open_count": 0,
+      "open_count": 1,
       "total_unrealized_pnl": 0.0,
-      "total_capital_deployed": 0
+      "total_capital_deployed": 5000
     },
     "all": {
-      "open_count": 0,
+      "open_count": 1,
       "total_unrealized_pnl": 0.0,
-      "total_capital_deployed": 0
+      "total_capital_deployed": 5000
     }
   },
-  "last_updated": null,
-  "spy_price": null,
-  "spy_above_200sma": null,
+  "last_updated": "2026-05-20T02:47:25.695429Z",
+  "spy_price": 733.72998046875,
+  "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
     "rsi2_entry": 5,
