@@ -192,9 +192,9 @@ def check_exit_signal(
         position_size = position.get('position_size', 5000)
         pnl_dollars = (pnl_pct / 100) * position_size
 
-        # Check RSI exit
+        # Check RSI exit — require at least 1 hold day to avoid exiting on the entry bar
         rsi2_exit = config.get('rsi2_exit', 65)
-        if not pd.isna(current['RSI_2']) and current['RSI_2'] > rsi2_exit:
+        if hold_days >= 1 and not pd.isna(current['RSI_2']) and current['RSI_2'] > rsi2_exit:
             return {
                 'exit_reason': f'RSI2 > {rsi2_exit}',
                 'exit_date': current_date.strftime('%Y-%m-%d'),
