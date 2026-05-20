@@ -288,6 +288,38 @@
       "entry_score": 19.41374772265099,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "DAL_2026-05-20",
+      "ticker": "DAL",
+      "sector": "Industrials",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 74.08999633789062,
+      "exit_price": 74.2300033569336,
+      "pnl_pct": 0.18896885674613007,
+      "pnl_dollars": 9.448442837306503,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 17.82048572192974,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "MSM_2026-05-20",
+      "ticker": "MSM",
+      "sector": "Trading Companies & Distributors",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 105.68000030517578,
+      "exit_price": 105.79499816894531,
+      "pnl_pct": 0.10881705472884917,
+      "pnl_dollars": 5.440852736442459,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.675460640405484,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -302,13 +334,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 18,
-      "winners": 12,
+      "total_trades": 20,
+      "winners": 14,
       "losers": 6,
-      "win_rate": 66.66666666666666,
-      "total_pnl": 424.49,
-      "profit_factor": 7.81,
-      "avg_win": 40.57,
+      "win_rate": 70.0,
+      "total_pnl": 439.38,
+      "profit_factor": 8.05,
+      "avg_win": 35.83,
       "avg_loss": 10.38
     }
   },
