@@ -224,6 +224,54 @@
       "entry_score": 18.946396872177957,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "DAL_2026-05-20",
+      "ticker": "DAL",
+      "sector": "Industrials",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 74.56849670410156,
+      "exit_price": 74.5999984741211,
+      "pnl_pct": 0.04224541383008873,
+      "pnl_dollars": 2.1122706915044365,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 17.402221764740396,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "MSM_2026-05-20",
+      "ticker": "MSM",
+      "sector": "Trading Companies & Distributors",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 105.5999984741211,
+      "exit_price": 105.79000091552734,
+      "pnl_pct": 0.17992655696184023,
+      "pnl_dollars": 8.996327848092012,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 12.959000803240158,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "VMI_2026-05-20",
+      "ticker": "VMI",
+      "sector": "Industrial Machinery & Supplies & Components",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-20",
+      "entry_price": 505.0400085449219,
+      "exit_price": 506.5050048828125,
+      "pnl_pct": 0.2900753035608883,
+      "pnl_dollars": 14.503765178044414,
+      "hold_days": 0,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 19.031956010695442,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -238,13 +286,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 14,
-      "winners": 8,
+      "total_trades": 17,
+      "winners": 11,
       "losers": 6,
-      "win_rate": 57.14285714285714,
-      "total_pnl": 381.75,
-      "profit_factor": 7.13,
-      "avg_win": 55.51,
+      "win_rate": 64.70588235294117,
+      "total_pnl": 407.36,
+      "profit_factor": 7.54,
+      "avg_win": 42.7,
       "avg_loss": 10.38
     }
   },
