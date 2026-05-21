@@ -128,6 +128,22 @@
       "entry_score": 19.939494660097804,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "ROK_2026-05-20",
+      "ticker": "ROK",
+      "sector": "Industrials",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-21",
+      "entry_price": 431.4150085449219,
+      "exit_price": 440.4700012207031,
+      "pnl_pct": 2.098905345533053,
+      "pnl_dollars": 104.94526727665266,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.147730780185881,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -142,13 +158,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 8,
-      "winners": 7,
+      "total_trades": 9,
+      "winners": 8,
       "losers": 1,
-      "win_rate": 87.5,
-      "total_pnl": 804.03,
-      "profit_factor": 46.97,
-      "avg_win": 117.36,
+      "win_rate": 88.88888888888889,
+      "total_pnl": 908.97,
+      "profit_factor": 52.97,
+      "avg_win": 115.81,
       "avg_loss": 17.49
     }
   },
