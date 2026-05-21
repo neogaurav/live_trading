@@ -96,6 +96,38 @@
       "entry_score": 23.281437947745147,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "VECO_2026-05-20",
+      "ticker": "VECO",
+      "sector": "Semiconductor Materials & Equipment",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-21",
+      "entry_price": 56.31999969482422,
+      "exit_price": 57.91999816894531,
+      "pnl_pct": 2.8409063970008086,
+      "pnl_dollars": 142.04531985004044,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 18.68068376582257,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "VMI_2026-05-20",
+      "ticker": "VMI",
+      "sector": "Industrial Machinery & Supplies & Components",
+      "entry_date": "2026-05-20",
+      "exit_date": "2026-05-21",
+      "entry_price": 504.1700134277344,
+      "exit_price": 506.3699951171875,
+      "pnl_pct": 0.4363571078922268,
+      "pnl_dollars": 21.817855394611342,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 19.939494660097804,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -110,13 +142,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 6,
-      "winners": 5,
+      "total_trades": 8,
+      "winners": 7,
       "losers": 1,
-      "win_rate": 83.33333333333334,
-      "total_pnl": 640.17,
-      "profit_factor": 37.6,
-      "avg_win": 131.53,
+      "win_rate": 87.5,
+      "total_pnl": 804.03,
+      "profit_factor": 46.97,
+      "avg_win": 117.36,
       "avg_loss": 17.49
     }
   },
