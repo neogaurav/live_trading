@@ -256,6 +256,38 @@
       "entry_score": 19.375747926869163,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "PWR_2026-05-21",
+      "ticker": "PWR",
+      "sector": "Industrials",
+      "entry_date": "2026-05-21",
+      "exit_date": "2026-05-22",
+      "entry_price": 718.0449829101562,
+      "exit_price": 724.155029296875,
+      "pnl_pct": 0.8509280800146346,
+      "pnl_dollars": 42.54640400073173,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.87126844244522,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "UNH_2026-05-21",
+      "ticker": "UNH",
+      "sector": "Health Care",
+      "entry_date": "2026-05-21",
+      "exit_date": "2026-05-22",
+      "entry_price": 384.1300048828125,
+      "exit_price": 388.44000244140625,
+      "pnl_pct": 1.1220153343419748,
+      "pnl_dollars": 56.100766717098736,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 9.70229601064486,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -270,13 +302,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 16,
-      "winners": 11,
+      "total_trades": 18,
+      "winners": 13,
       "losers": 5,
-      "win_rate": 68.75,
-      "total_pnl": 795.51,
-      "profit_factor": 3.11,
-      "avg_win": 106.64,
+      "win_rate": 72.22222222222221,
+      "total_pnl": 894.15,
+      "profit_factor": 3.37,
+      "avg_win": 97.82,
       "avg_loss": 75.51
     }
   },
