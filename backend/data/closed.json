@@ -288,6 +288,54 @@
       "entry_score": 9.70229601064486,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "TWLO_2026-05-22",
+      "ticker": "TWLO",
+      "sector": "Systems Software",
+      "entry_date": "2026-05-22",
+      "exit_date": "2026-05-27",
+      "entry_price": 184.22500610351562,
+      "exit_price": 187.5500030517578,
+      "pnl_pct": 1.804856473379024,
+      "pnl_dollars": 90.2428236689512,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 31.066766117306535,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "UNH_2026-05-22",
+      "ticker": "UNH",
+      "sector": "Health Care",
+      "entry_date": "2026-05-22",
+      "exit_date": "2026-05-27",
+      "entry_price": 388.44000244140625,
+      "exit_price": 381.9187927246094,
+      "pnl_pct": -1.6788203263850443,
+      "pnl_dollars": -83.94101631925221,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 12.662580352898134,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "GOOG_2026-05-26",
+      "ticker": "GOOG",
+      "sector": "Communication Services",
+      "entry_date": "2026-05-26",
+      "exit_date": "2026-05-27",
+      "entry_price": 380.0400085449219,
+      "exit_price": 387.0799865722656,
+      "pnl_pct": 1.8524307623026592,
+      "pnl_dollars": 92.62153811513296,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.630980241083282,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -302,14 +350,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 18,
-      "winners": 13,
-      "losers": 5,
-      "win_rate": 72.22222222222221,
-      "total_pnl": 894.15,
-      "profit_factor": 3.37,
-      "avg_win": 97.82,
-      "avg_loss": 75.51
+      "total_trades": 21,
+      "winners": 15,
+      "losers": 6,
+      "win_rate": 71.42857142857143,
+      "total_pnl": 993.08,
+      "profit_factor": 3.15,
+      "avg_win": 96.97,
+      "avg_loss": 76.91
     }
   },
   "strategy": "UltraQ_90_RS2"
