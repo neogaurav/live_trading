@@ -1,26 +1,6 @@
 {
   "positions_top20": [
     {
-      "id": "CVS_2026-05-27",
-      "ticker": "CVS",
-      "sector": "Health Care",
-      "entry_date": "2026-05-27",
-      "entry_price": 91.44999694824219,
-      "entry_rsi2": 1.211326076499489,
-      "entry_rsi30": 60.39159000778133,
-      "entry_rs_vs_spy": 7.548961486338879,
-      "entry_volume_ratio": 0.09896879350178564,
-      "entry_score": 20.621153300848828,
-      "current_price": 92.06999969482422,
-      "current_pnl_pct": 0.6779691276894484,
-      "current_pnl_dollars": 33.89845638447242,
-      "hold_days": 0,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
       "id": "PM_2026-05-27",
       "ticker": "PM",
       "sector": "Consumer Staples",
@@ -31,10 +11,10 @@
       "entry_rs_vs_spy": 4.136756297582588,
       "entry_volume_ratio": 0.30214028603403853,
       "entry_score": 11.386511870054377,
-      "current_price": 182.0399932861328,
-      "current_pnl_pct": 0.23676706917907797,
-      "current_pnl_dollars": 11.838353458953899,
-      "hold_days": 0,
+      "current_price": 180.38009643554688,
+      "current_pnl_pct": -0.6772227138765796,
+      "current_pnl_dollars": -33.861135693828984,
+      "hold_days": 1,
       "status": "open",
       "exit_signal": null,
       "position_size": 5000,
@@ -43,26 +23,6 @@
   ],
   "positions_all": [
     {
-      "id": "CVS_2026-05-27",
-      "ticker": "CVS",
-      "sector": "Health Care",
-      "entry_date": "2026-05-27",
-      "entry_price": 91.44999694824219,
-      "entry_rsi2": 1.211326076499489,
-      "entry_rsi30": 60.39159000778133,
-      "entry_rs_vs_spy": 7.548961486338879,
-      "entry_volume_ratio": 0.09896879350178564,
-      "entry_score": 20.621153300848828,
-      "current_price": 92.06999969482422,
-      "current_pnl_pct": 0.6779691276894484,
-      "current_pnl_dollars": 33.89845638447242,
-      "hold_days": 0,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
       "id": "PM_2026-05-27",
       "ticker": "PM",
       "sector": "Consumer Staples",
@@ -73,10 +33,10 @@
       "entry_rs_vs_spy": 4.136756297582588,
       "entry_volume_ratio": 0.30214028603403853,
       "entry_score": 11.386511870054377,
-      "current_price": 182.0399932861328,
-      "current_pnl_pct": 0.23676706917907797,
-      "current_pnl_dollars": 11.838353458953899,
-      "hold_days": 0,
+      "current_price": 180.38009643554688,
+      "current_pnl_pct": -0.6772227138765796,
+      "current_pnl_dollars": -33.861135693828984,
+      "hold_days": 1,
       "status": "open",
       "exit_signal": null,
       "position_size": 5000,
@@ -85,18 +45,18 @@
   ],
   "summary": {
     "top20": {
-      "open_count": 2,
-      "total_unrealized_pnl": 45.74,
-      "total_capital_deployed": 10000
+      "open_count": 1,
+      "total_unrealized_pnl": -33.86,
+      "total_capital_deployed": 5000
     },
     "all": {
-      "open_count": 2,
-      "total_unrealized_pnl": 45.74,
-      "total_capital_deployed": 10000
+      "open_count": 1,
+      "total_unrealized_pnl": -33.86,
+      "total_capital_deployed": 5000
     }
   },
-  "last_updated": "2026-05-27T23:17:58.475590Z",
-  "spy_price": 750.4600219726562,
+  "last_updated": "2026-05-28T15:35:35.218084Z",
+  "spy_price": 754.030029296875,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {

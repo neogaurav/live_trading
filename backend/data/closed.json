@@ -336,6 +336,22 @@
       "entry_score": 15.630980241083282,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CVS_2026-05-27",
+      "ticker": "CVS",
+      "sector": "Health Care",
+      "entry_date": "2026-05-27",
+      "exit_date": "2026-05-28",
+      "entry_price": 91.44999694824219,
+      "exit_price": 93.47000122070312,
+      "pnl_pct": 2.208862044691151,
+      "pnl_dollars": 110.44310223455756,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 20.621153300848828,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -350,13 +366,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 21,
-      "winners": 15,
+      "total_trades": 22,
+      "winners": 16,
       "losers": 6,
-      "win_rate": 71.42857142857143,
-      "total_pnl": 993.08,
-      "profit_factor": 3.15,
-      "avg_win": 96.97,
+      "win_rate": 72.72727272727273,
+      "total_pnl": 1103.52,
+      "profit_factor": 3.39,
+      "avg_win": 97.81,
       "avg_loss": 76.91
     }
   },
