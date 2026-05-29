@@ -352,6 +352,22 @@
       "entry_score": 20.621153300848828,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "PM_2026-05-27",
+      "ticker": "PM",
+      "sector": "Consumer Staples",
+      "entry_date": "2026-05-27",
+      "exit_date": "2026-05-29",
+      "entry_price": 181.61000061035156,
+      "exit_price": 177.55499267578125,
+      "pnl_pct": -2.2328109250274286,
+      "pnl_dollars": -111.64054625137143,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 11.386511870054377,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -366,14 +382,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 22,
+      "total_trades": 23,
       "winners": 16,
-      "losers": 6,
-      "win_rate": 72.72727272727273,
-      "total_pnl": 1103.52,
-      "profit_factor": 3.39,
+      "losers": 7,
+      "win_rate": 69.56521739130434,
+      "total_pnl": 991.88,
+      "profit_factor": 2.73,
       "avg_win": 97.81,
-      "avg_loss": 76.91
+      "avg_loss": 81.87
     }
   },
   "strategy": "UltraQ_90_RS2"
