@@ -400,6 +400,38 @@
       "entry_score": 11.361061335832883,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "JAZZ_2026-06-03",
+      "ticker": "JAZZ",
+      "sector": "Pharmaceuticals",
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-04",
+      "entry_price": 230.3699951171875,
+      "exit_price": 234.59500122070312,
+      "pnl_pct": 1.8340088523101317,
+      "pnl_dollars": 91.70044261550659,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.55317874433985,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "TGTX_2026-06-03",
+      "ticker": "TGTX",
+      "sector": "Biotechnology",
+      "entry_date": "2026-06-03",
+      "exit_date": "2026-06-04",
+      "entry_price": 40.59000015258789,
+      "exit_price": 42.14500045776367,
+      "pnl_pct": 3.8309935928311223,
+      "pnl_dollars": 191.5496796415561,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 22.68137186086846,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -414,13 +446,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 25,
-      "winners": 17,
+      "total_trades": 27,
+      "winners": 19,
       "losers": 8,
-      "win_rate": 68.0,
-      "total_pnl": 984.99,
-      "profit_factor": 2.43,
-      "avg_win": 98.56,
+      "win_rate": 70.37037037037037,
+      "total_pnl": 1268.24,
+      "profit_factor": 2.84,
+      "avg_win": 103.09,
       "avg_loss": 86.32
     }
   },
