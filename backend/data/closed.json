@@ -448,6 +448,22 @@
       "entry_score": 12.351322575846654,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "RAMP_2026-06-05",
+      "ticker": "RAMP",
+      "sector": "Application Software",
+      "entry_date": "2026-06-05",
+      "exit_date": "2026-06-08",
+      "entry_price": 37.435001373291016,
+      "exit_price": 37.470001220703125,
+      "pnl_pct": 0.09349498097541709,
+      "pnl_dollars": 4.674749048770854,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 26.862465088099068,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -462,13 +478,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 28,
-      "winners": 20,
+      "total_trades": 29,
+      "winners": 21,
       "losers": 8,
-      "win_rate": 71.42857142857143,
-      "total_pnl": 1330.3,
+      "win_rate": 72.41379310344827,
+      "total_pnl": 1334.98,
       "profit_factor": 2.93,
-      "avg_win": 101.04,
+      "avg_win": 96.45,
       "avg_loss": 86.32
     }
   },

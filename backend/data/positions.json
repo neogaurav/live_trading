@@ -1,26 +1,6 @@
 {
   "positions_top20": [
     {
-      "id": "RAMP_2026-06-05",
-      "ticker": "RAMP",
-      "sector": "Application Software",
-      "entry_date": "2026-06-05",
-      "entry_price": 37.435001373291016,
-      "entry_rsi2": 4.367837347989848,
-      "entry_rsi30": 68.75100947798666,
-      "entry_rs_vs_spy": 21.684037161006554,
-      "entry_volume_ratio": 0.11962795681575307,
-      "entry_score": 26.862465088099068,
-      "current_price": 37.415000915527344,
-      "current_pnl_pct": -0.05342715915577223,
-      "current_pnl_dollars": -2.6713579577886115,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
       "id": "MARA_2026-06-08",
       "ticker": "MARA",
       "sector": "Internet Services & Infrastructure",
@@ -31,9 +11,9 @@
       "entry_rs_vs_spy": 4.0450198085664635,
       "entry_volume_ratio": 0.38594528660277355,
       "entry_score": 16.23426631052058,
-      "current_price": 13.520000457763672,
-      "current_pnl_pct": -0.18456713465825336,
-      "current_pnl_dollars": -9.228356732912669,
+      "current_price": 13.88070011138916,
+      "current_pnl_pct": 2.478405560755559,
+      "current_pnl_dollars": 123.92027803777795,
       "hold_days": 0,
       "status": "open",
       "exit_signal": null,
@@ -43,26 +23,6 @@
   ],
   "positions_all": [
     {
-      "id": "RAMP_2026-06-05",
-      "ticker": "RAMP",
-      "sector": "Application Software",
-      "entry_date": "2026-06-05",
-      "entry_price": 37.435001373291016,
-      "entry_rsi2": 4.367837347989848,
-      "entry_rsi30": 68.75100947798666,
-      "entry_rs_vs_spy": 21.684037161006554,
-      "entry_volume_ratio": 0.11962795681575307,
-      "entry_score": 26.862465088099068,
-      "current_price": 37.415000915527344,
-      "current_pnl_pct": -0.05342715915577223,
-      "current_pnl_dollars": -2.6713579577886115,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
       "id": "MARA_2026-06-08",
       "ticker": "MARA",
       "sector": "Internet Services & Infrastructure",
@@ -73,9 +33,9 @@
       "entry_rs_vs_spy": 4.0450198085664635,
       "entry_volume_ratio": 0.38594528660277355,
       "entry_score": 16.23426631052058,
-      "current_price": 13.520000457763672,
-      "current_pnl_pct": -0.18456713465825336,
-      "current_pnl_dollars": -9.228356732912669,
+      "current_price": 13.88070011138916,
+      "current_pnl_pct": 2.478405560755559,
+      "current_pnl_dollars": 123.92027803777795,
       "hold_days": 0,
       "status": "open",
       "exit_signal": null,
@@ -85,18 +45,18 @@
   ],
   "summary": {
     "top20": {
-      "open_count": 2,
-      "total_unrealized_pnl": -11.9,
-      "total_capital_deployed": 10000
+      "open_count": 1,
+      "total_unrealized_pnl": 123.92,
+      "total_capital_deployed": 5000
     },
     "all": {
-      "open_count": 2,
-      "total_unrealized_pnl": -11.9,
-      "total_capital_deployed": 10000
+      "open_count": 1,
+      "total_unrealized_pnl": 123.92,
+      "total_capital_deployed": 5000
     }
   },
-  "last_updated": "2026-06-08T17:43:57.440841Z",
-  "spy_price": 740.8250122070312,
+  "last_updated": "2026-06-08T18:26:39.397522Z",
+  "spy_price": 741.780029296875,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
