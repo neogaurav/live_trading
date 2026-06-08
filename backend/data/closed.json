@@ -432,6 +432,22 @@
       "entry_score": 22.68137186086846,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "BJRI_2026-06-05",
+      "ticker": "BJRI",
+      "sector": "Restaurants",
+      "entry_date": "2026-06-05",
+      "exit_date": "2026-06-08",
+      "entry_price": 43.5098991394043,
+      "exit_price": 44.04999923706055,
+      "pnl_pct": 1.2413269355688206,
+      "pnl_dollars": 62.06634677844103,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 12.351322575846654,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -446,13 +462,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 27,
-      "winners": 19,
+      "total_trades": 28,
+      "winners": 20,
       "losers": 8,
-      "win_rate": 70.37037037037037,
-      "total_pnl": 1268.24,
-      "profit_factor": 2.84,
-      "avg_win": 103.09,
+      "win_rate": 71.42857142857143,
+      "total_pnl": 1330.3,
+      "profit_factor": 2.93,
+      "avg_win": 101.04,
       "avg_loss": 86.32
     }
   },
