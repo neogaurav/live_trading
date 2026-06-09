@@ -464,6 +464,22 @@
       "entry_score": 26.862465088099068,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "MARA_2026-06-08",
+      "ticker": "MARA",
+      "sector": "Internet Services & Infrastructure",
+      "entry_date": "2026-06-08",
+      "exit_date": "2026-06-09",
+      "entry_price": 13.545000076293945,
+      "exit_price": 13.96500015258789,
+      "pnl_pct": 3.100775739595729,
+      "pnl_dollars": 155.03878697978647,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 16.23426631052058,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -478,13 +494,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 29,
-      "winners": 21,
+      "total_trades": 30,
+      "winners": 22,
       "losers": 8,
-      "win_rate": 72.41379310344827,
-      "total_pnl": 1334.98,
-      "profit_factor": 2.93,
-      "avg_win": 96.45,
+      "win_rate": 73.33333333333333,
+      "total_pnl": 1490.02,
+      "profit_factor": 3.16,
+      "avg_win": 99.12,
       "avg_loss": 86.32
     }
   },
