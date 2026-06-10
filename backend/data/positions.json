@@ -11,10 +11,10 @@
       "entry_rs_vs_spy": 5.8295914409180805,
       "entry_volume_ratio": 0.06723548345538446,
       "entry_score": 13.359698483330895,
-      "current_price": 75.76000213623047,
-      "current_pnl_pct": 0.45081407523177575,
-      "current_pnl_dollars": 22.540703761588787,
-      "hold_days": 0,
+      "current_price": 74.4800033569336,
+      "current_pnl_pct": -1.2463469037828356,
+      "current_pnl_dollars": -62.31734518914178,
+      "hold_days": 1,
       "status": "open",
       "exit_signal": null,
       "position_size": 5000,
@@ -33,10 +33,10 @@
       "entry_rs_vs_spy": 5.8295914409180805,
       "entry_volume_ratio": 0.06723548345538446,
       "entry_score": 13.359698483330895,
-      "current_price": 75.76000213623047,
-      "current_pnl_pct": 0.45081407523177575,
-      "current_pnl_dollars": 22.540703761588787,
-      "hold_days": 0,
+      "current_price": 74.4800033569336,
+      "current_pnl_pct": -1.2463469037828356,
+      "current_pnl_dollars": -62.31734518914178,
+      "hold_days": 1,
       "status": "open",
       "exit_signal": null,
       "position_size": 5000,
@@ -46,17 +46,17 @@
   "summary": {
     "top20": {
       "open_count": 1,
-      "total_unrealized_pnl": 22.54,
+      "total_unrealized_pnl": -62.32,
       "total_capital_deployed": 5000
     },
     "all": {
       "open_count": 1,
-      "total_unrealized_pnl": 22.54,
+      "total_unrealized_pnl": -62.32,
       "total_capital_deployed": 5000
     }
   },
-  "last_updated": "2026-06-09T23:18:17.893739Z",
-  "spy_price": 737.0499877929688,
+  "last_updated": "2026-06-10T15:00:59.533978Z",
+  "spy_price": 732.4400024414062,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
