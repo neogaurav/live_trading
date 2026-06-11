@@ -480,6 +480,22 @@
       "entry_score": 16.23426631052058,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CMC_2026-06-09",
+      "ticker": "CMC",
+      "sector": "Steel",
+      "entry_date": "2026-06-09",
+      "exit_date": "2026-06-11",
+      "entry_price": 75.41999816894531,
+      "exit_price": 75.52999877929688,
+      "pnl_pct": 0.1458507199975756,
+      "pnl_dollars": 7.29253599987878,
+      "hold_days": 2,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.359698483330895,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -494,13 +510,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 30,
-      "winners": 22,
+      "total_trades": 31,
+      "winners": 23,
       "losers": 8,
-      "win_rate": 73.33333333333333,
-      "total_pnl": 1490.02,
-      "profit_factor": 3.16,
-      "avg_win": 99.12,
+      "win_rate": 74.19354838709677,
+      "total_pnl": 1497.31,
+      "profit_factor": 3.17,
+      "avg_win": 95.12,
       "avg_loss": 86.32
     }
   },
