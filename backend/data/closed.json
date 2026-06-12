@@ -576,6 +576,22 @@
       "entry_score": 19.43030571829199,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "FLEX_2026-06-11",
+      "ticker": "FLEX",
+      "sector": "Electronic Manufacturing Services",
+      "entry_date": "2026-06-11",
+      "exit_date": "2026-06-12",
+      "entry_price": 146.4600067138672,
+      "exit_price": 152.0399932861328,
+      "pnl_pct": 3.8099046268426084,
+      "pnl_dollars": 190.4952313421304,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 14.24678513416329,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -590,13 +606,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 36,
-      "winners": 26,
+      "total_trades": 37,
+      "winners": 27,
       "losers": 10,
-      "win_rate": 72.22222222222221,
-      "total_pnl": -2793.15,
-      "profit_factor": 0.48,
-      "avg_win": 97.63,
+      "win_rate": 72.97297297297297,
+      "total_pnl": -2602.65,
+      "profit_factor": 0.51,
+      "avg_win": 101.07,
       "avg_loss": 533.14
     }
   },
