@@ -1,20 +1,62 @@
 {
-  "positions_top20": [],
-  "positions_all": [],
+  "positions_top20": [
+    {
+      "id": "MMI_2026-06-16",
+      "ticker": "MMI",
+      "sector": "Real Estate Services",
+      "entry_date": "2026-06-16",
+      "entry_price": 29.78499984741211,
+      "entry_rsi2": 4.74545177251143,
+      "entry_rsi30": 55.22856061737409,
+      "entry_rs_vs_spy": 3.786622920211191,
+      "entry_volume_ratio": 0.12666458078246812,
+      "entry_score": 9.92904227910067,
+      "current_price": 29.78499984741211,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
+  "positions_all": [
+    {
+      "id": "MMI_2026-06-16",
+      "ticker": "MMI",
+      "sector": "Real Estate Services",
+      "entry_date": "2026-06-16",
+      "entry_price": 29.78499984741211,
+      "entry_rsi2": 4.74545177251143,
+      "entry_rsi30": 55.22856061737409,
+      "entry_rs_vs_spy": 3.786622920211191,
+      "entry_volume_ratio": 0.12666458078246812,
+      "entry_score": 9.92904227910067,
+      "current_price": 29.78499984741211,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
   "summary": {
     "top20": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 1,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 5000
     },
     "all": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 1,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 5000
     }
   },
-  "last_updated": "2026-06-15T23:45:49.898030Z",
-  "spy_price": 754.8300170898438,
+  "last_updated": "2026-06-16T16:30:18.091055Z",
+  "spy_price": 753.280029296875,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
