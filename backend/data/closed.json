@@ -608,6 +608,22 @@
       "entry_score": 20.933612495259844,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "MMI_2026-06-16",
+      "ticker": "MMI",
+      "sector": "Real Estate Services",
+      "entry_date": "2026-06-16",
+      "exit_date": "2026-06-18",
+      "entry_price": 29.78499984741211,
+      "exit_price": 29.424999237060547,
+      "pnl_pct": -1.2086641336103376,
+      "pnl_dollars": -60.43320668051688,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 9.92904227910067,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -622,14 +638,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 38,
+      "total_trades": 39,
       "winners": 28,
-      "losers": 10,
-      "win_rate": 73.68421052631578,
-      "total_pnl": -2551.15,
+      "losers": 11,
+      "win_rate": 71.7948717948718,
+      "total_pnl": -2611.58,
       "profit_factor": 0.52,
       "avg_win": 99.3,
-      "avg_loss": 533.14
+      "avg_loss": 490.17
     }
   },
   "strategy": "UltraQ_90_RS2"
