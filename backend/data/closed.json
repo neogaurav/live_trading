@@ -736,6 +736,22 @@
       "entry_score": 27.308033013069114,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "LQDT_2026-06-18",
+      "ticker": "LQDT",
+      "sector": "Diversified Support Services",
+      "entry_date": "2026-06-18",
+      "exit_date": "2026-06-22",
+      "entry_price": 37.17499923706055,
+      "exit_price": 37.8650016784668,
+      "pnl_pct": 1.8560926847803971,
+      "pnl_dollars": 92.80463423901986,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 18.81688756638108,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -750,13 +766,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 46,
-      "winners": 33,
+      "total_trades": 47,
+      "winners": 34,
       "losers": 13,
-      "win_rate": 71.73913043478261,
-      "total_pnl": -2671.14,
-      "profit_factor": 0.54,
-      "avg_win": 96.58,
+      "win_rate": 72.3404255319149,
+      "total_pnl": -2578.33,
+      "profit_factor": 0.56,
+      "avg_win": 96.47,
       "avg_loss": 450.63
     }
   },
