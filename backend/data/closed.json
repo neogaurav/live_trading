@@ -944,6 +944,22 @@
       "entry_score": 12.30553192532366,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "LLY_2026-06-22",
+      "ticker": "LLY",
+      "sector": "Health Care",
+      "entry_date": "2026-06-22",
+      "exit_date": "2026-06-23",
+      "entry_price": 1112.31005859375,
+      "exit_price": 1111.5699462890625,
+      "pnl_pct": -0.066538309077524,
+      "pnl_dollars": -3.3269154538762002,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.296086335327319,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -958,14 +974,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 59,
+      "total_trades": 60,
       "winners": 42,
-      "losers": 17,
-      "win_rate": 71.1864406779661,
-      "total_pnl": -2282.74,
+      "losers": 18,
+      "win_rate": 70.0,
+      "total_pnl": -2286.07,
       "profit_factor": 0.62,
       "avg_win": 88.66,
-      "avg_loss": 353.32
+      "avg_loss": 333.87
     }
   },
   "strategy": "UltraQ_90_RS2"
