@@ -1,26 +1,6 @@
 {
   "positions_top20": [
     {
-      "id": "SJM_2026-06-23",
-      "ticker": "SJM",
-      "sector": "Consumer Staples",
-      "entry_date": "2026-06-23",
-      "entry_price": 109.05000305175781,
-      "entry_rsi2": 1.544193073040006,
-      "entry_rsi30": 55.89320111926545,
-      "entry_rs_vs_spy": 6.257193250235438,
-      "entry_volume_ratio": 0.09907916879384347,
-      "entry_score": 18.664202948124643,
-      "current_price": 110.7750015258789,
-      "current_pnl_pct": 1.5818417476819002,
-      "current_pnl_dollars": 79.09208738409501,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
       "id": "IOSP_2026-06-24",
       "ticker": "IOSP",
       "sector": "Specialty Chemicals",
@@ -31,9 +11,9 @@
       "entry_rs_vs_spy": 2.2027991172004935,
       "entry_volume_ratio": 0.0988647994152138,
       "entry_score": 11.055989393710856,
-      "current_price": 82.37000274658203,
-      "current_pnl_pct": 0.0,
-      "current_pnl_dollars": 0.0,
+      "current_price": 83.91000366210938,
+      "current_pnl_pct": 1.869613772219103,
+      "current_pnl_dollars": 93.48068861095516,
       "hold_days": 0,
       "status": "open",
       "exit_signal": null,
@@ -43,26 +23,6 @@
   ],
   "positions_all": [
     {
-      "id": "SJM_2026-06-23",
-      "ticker": "SJM",
-      "sector": "Consumer Staples",
-      "entry_date": "2026-06-23",
-      "entry_price": 109.05000305175781,
-      "entry_rsi2": 1.544193073040006,
-      "entry_rsi30": 55.89320111926545,
-      "entry_rs_vs_spy": 6.257193250235438,
-      "entry_volume_ratio": 0.09907916879384347,
-      "entry_score": 18.664202948124643,
-      "current_price": 110.7750015258789,
-      "current_pnl_pct": 1.5818417476819002,
-      "current_pnl_dollars": 79.09208738409501,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
       "id": "IOSP_2026-06-24",
       "ticker": "IOSP",
       "sector": "Specialty Chemicals",
@@ -73,9 +33,9 @@
       "entry_rs_vs_spy": 2.2027991172004935,
       "entry_volume_ratio": 0.0988647994152138,
       "entry_score": 11.055989393710856,
-      "current_price": 82.37000274658203,
-      "current_pnl_pct": 0.0,
-      "current_pnl_dollars": 0.0,
+      "current_price": 83.91000366210938,
+      "current_pnl_pct": 1.869613772219103,
+      "current_pnl_dollars": 93.48068861095516,
       "hold_days": 0,
       "status": "open",
       "exit_signal": null,
@@ -85,18 +45,18 @@
   ],
   "summary": {
     "top20": {
-      "open_count": 2,
-      "total_unrealized_pnl": 79.09,
-      "total_capital_deployed": 10000
+      "open_count": 1,
+      "total_unrealized_pnl": 93.48,
+      "total_capital_deployed": 5000
     },
     "all": {
-      "open_count": 2,
-      "total_unrealized_pnl": 79.09,
-      "total_capital_deployed": 10000
+      "open_count": 1,
+      "total_unrealized_pnl": 93.48,
+      "total_capital_deployed": 5000
     }
   },
-  "last_updated": "2026-06-24T14:13:31.962090Z",
-  "spy_price": 735.9149780273438,
+  "last_updated": "2026-06-24T15:30:26.461127Z",
+  "spy_price": 739.0750122070312,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {

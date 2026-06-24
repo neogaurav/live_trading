@@ -1056,6 +1056,22 @@
       "entry_score": 15.466134849267064,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "SJM_2026-06-23",
+      "ticker": "SJM",
+      "sector": "Consumer Staples",
+      "entry_date": "2026-06-23",
+      "exit_date": "2026-06-24",
+      "entry_price": 109.05000305175781,
+      "exit_price": 111.83499908447266,
+      "pnl_pct": 2.5538706600430006,
+      "pnl_dollars": 127.69353300215003,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 18.664202948124643,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1070,13 +1086,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 66,
-      "winners": 46,
+      "total_trades": 67,
+      "winners": 47,
       "losers": 20,
-      "win_rate": 69.6969696969697,
-      "total_pnl": -2001.94,
-      "profit_factor": 0.67,
-      "avg_win": 87.96,
+      "win_rate": 70.1492537313433,
+      "total_pnl": -1874.25,
+      "profit_factor": 0.69,
+      "avg_win": 88.81,
       "avg_loss": 302.41
     }
   },
