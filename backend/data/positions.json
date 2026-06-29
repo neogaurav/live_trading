@@ -13,8 +13,8 @@
       "total_capital_deployed": 0
     }
   },
-  "last_updated": "2026-06-29T19:13:31.618359Z",
-  "spy_price": 740.719970703125,
+  "last_updated": "2026-06-29T19:56:44.966323Z",
+  "spy_price": 740.2999877929688,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
