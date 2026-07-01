@@ -1136,6 +1136,38 @@
       "entry_score": 21.94471825809697,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "APD_2026-06-30",
+      "ticker": "APD",
+      "sector": "Materials",
+      "entry_date": "2026-06-30",
+      "exit_date": "2026-07-01",
+      "entry_price": 296.2900085449219,
+      "exit_price": 296.5199890136719,
+      "pnl_pct": 0.07762005539080352,
+      "pnl_dollars": 3.881002769540176,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.08668159453045,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "VIRT_2026-06-30",
+      "ticker": "VIRT",
+      "sector": "Financial Exchanges & Data",
+      "entry_date": "2026-06-30",
+      "exit_date": "2026-07-01",
+      "entry_price": 60.5099983215332,
+      "exit_price": 61.369998931884766,
+      "pnl_pct": 1.4212537336090403,
+      "pnl_dollars": 71.06268668045202,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 26.12078062917902,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1150,13 +1182,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 71,
-      "winners": 51,
+      "total_trades": 73,
+      "winners": 53,
       "losers": 20,
-      "win_rate": 71.83098591549296,
-      "total_pnl": -1734.7,
-      "profit_factor": 0.71,
-      "avg_win": 84.58,
+      "win_rate": 72.6027397260274,
+      "total_pnl": -1659.76,
+      "profit_factor": 0.73,
+      "avg_win": 82.8,
       "avg_loss": 302.41
     }
   },
