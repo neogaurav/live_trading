@@ -1184,6 +1184,22 @@
       "entry_score": 14.712561369827498,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "IBKR_2026-07-01",
+      "ticker": "IBKR",
+      "sector": "Financials",
+      "entry_date": "2026-07-01",
+      "exit_date": "2026-07-02",
+      "entry_price": 90.57499694824219,
+      "exit_price": 95.0199966430664,
+      "pnl_pct": 4.907535020248743,
+      "pnl_dollars": 245.37675101243715,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 17.58366681327705,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1198,13 +1214,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 74,
-      "winners": 54,
+      "total_trades": 75,
+      "winners": 55,
       "losers": 20,
-      "win_rate": 72.97297297297297,
-      "total_pnl": -1587.24,
-      "profit_factor": 0.74,
-      "avg_win": 82.61,
+      "win_rate": 73.33333333333333,
+      "total_pnl": -1341.86,
+      "profit_factor": 0.78,
+      "avg_win": 85.57,
       "avg_loss": 302.41
     }
   },
