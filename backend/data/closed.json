@@ -1200,6 +1200,22 @@
       "entry_score": 17.58366681327705,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "H_2026-07-02",
+      "ticker": "H",
+      "sector": "Hotels, Resorts & Cruise Lines",
+      "entry_date": "2026-07-02",
+      "exit_date": "2026-07-06",
+      "entry_price": 192.17999267578125,
+      "exit_price": 193.47999572753906,
+      "pnl_pct": 0.6764507759925875,
+      "pnl_dollars": 33.82253879962938,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.845684293146308,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1214,13 +1230,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 75,
-      "winners": 55,
+      "total_trades": 76,
+      "winners": 56,
       "losers": 20,
-      "win_rate": 73.33333333333333,
-      "total_pnl": -1341.86,
+      "win_rate": 73.68421052631578,
+      "total_pnl": -1308.04,
       "profit_factor": 0.78,
-      "avg_win": 85.57,
+      "avg_win": 84.65,
       "avg_loss": 302.41
     }
   },
