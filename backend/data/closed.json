@@ -1216,6 +1216,38 @@
       "entry_score": 13.845684293146308,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "D_2026-07-02",
+      "ticker": "D",
+      "sector": "Utilities",
+      "entry_date": "2026-07-02",
+      "exit_date": "2026-07-07",
+      "entry_price": 68.13999938964844,
+      "exit_price": 70.13999938964844,
+      "pnl_pct": 2.935133574867388,
+      "pnl_dollars": 146.7566787433694,
+      "hold_days": 2,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 10.295298575332529,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "ATI_2026-07-02",
+      "ticker": "ATI",
+      "sector": "Aerospace & Defense",
+      "entry_date": "2026-07-02",
+      "exit_date": "2026-07-07",
+      "entry_price": 193.9499969482422,
+      "exit_price": 180.6649932861328,
+      "pnl_pct": -6.849705527788497,
+      "pnl_dollars": -342.4852763894248,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 15.128800606799462,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1230,14 +1262,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 76,
-      "winners": 56,
-      "losers": 20,
-      "win_rate": 73.68421052631578,
-      "total_pnl": -1308.04,
-      "profit_factor": 0.78,
-      "avg_win": 84.65,
-      "avg_loss": 302.41
+      "total_trades": 78,
+      "winners": 57,
+      "losers": 21,
+      "win_rate": 73.07692307692307,
+      "total_pnl": -1503.76,
+      "profit_factor": 0.76,
+      "avg_win": 85.74,
+      "avg_loss": 304.32
     }
   },
   "strategy": "UltraQ_90_RS2"
