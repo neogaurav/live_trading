@@ -1248,6 +1248,22 @@
       "entry_score": 15.128800606799462,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "GVA_2026-07-06",
+      "ticker": "GVA",
+      "sector": "Construction & Engineering",
+      "entry_date": "2026-07-06",
+      "exit_date": "2026-07-08",
+      "entry_price": 150.44000244140625,
+      "exit_price": 142.80499267578125,
+      "pnl_pct": -5.0751194108752395,
+      "pnl_dollars": -253.75597054376198,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 12.522192240680045,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1262,14 +1278,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 78,
+      "total_trades": 79,
       "winners": 57,
-      "losers": 21,
-      "win_rate": 73.07692307692307,
-      "total_pnl": -1503.76,
-      "profit_factor": 0.76,
+      "losers": 22,
+      "win_rate": 72.15189873417721,
+      "total_pnl": -1757.52,
+      "profit_factor": 0.74,
       "avg_win": 85.74,
-      "avg_loss": 304.32
+      "avg_loss": 302.02
     }
   },
   "strategy": "UltraQ_90_RS2"
