@@ -1648,6 +1648,22 @@
       "entry_score": 21.24977155411262,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "SLM_2026-07-09",
+      "ticker": "SLM",
+      "sector": "Consumer Finance",
+      "entry_date": "2026-07-09",
+      "exit_date": "2026-07-10",
+      "entry_price": 24.7450008392334,
+      "exit_price": 24.989999771118164,
+      "pnl_pct": 0.99009465983253,
+      "pnl_dollars": 49.5047329916265,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 19.30895451980015,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1662,13 +1678,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 103,
-      "winners": 75,
+      "total_trades": 104,
+      "winners": 76,
       "losers": 28,
-      "win_rate": 72.81553398058253,
-      "total_pnl": -930.84,
+      "win_rate": 73.07692307692307,
+      "total_pnl": -881.33,
       "profit_factor": 0.87,
-      "avg_win": 81.21,
+      "avg_win": 80.79,
       "avg_loss": 250.77
     }
   },
