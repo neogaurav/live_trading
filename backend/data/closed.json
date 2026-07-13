@@ -1840,6 +1840,22 @@
       "entry_score": 18.439034481949655,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CINF_2026-07-10",
+      "ticker": "CINF",
+      "sector": "Financials",
+      "entry_date": "2026-07-10",
+      "exit_date": "2026-07-13",
+      "entry_price": 178.3800048828125,
+      "exit_price": 182.34500122070312,
+      "pnl_pct": 2.222780709360017,
+      "pnl_dollars": 111.13903546800086,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 12.467471260381659,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -1854,13 +1870,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 115,
-      "winners": 80,
+      "total_trades": 116,
+      "winners": 81,
       "losers": 35,
-      "win_rate": 69.56521739130434,
-      "total_pnl": -1377.3,
-      "profit_factor": 0.82,
-      "avg_win": 80.26,
+      "win_rate": 69.82758620689656,
+      "total_pnl": -1266.16,
+      "profit_factor": 0.84,
+      "avg_win": 80.64,
       "avg_loss": 222.8
     }
   },
