@@ -1,20 +1,102 @@
 {
-  "positions_top20": [],
-  "positions_all": [],
+  "positions_top20": [
+    {
+      "id": "CORT_2026-07-14",
+      "ticker": "CORT",
+      "sector": "Pharmaceuticals",
+      "entry_date": "2026-07-14",
+      "entry_price": 88.45999908447266,
+      "entry_rsi2": 4.460072513313506,
+      "entry_rsi30": 66.97160151649683,
+      "entry_rs_vs_spy": 5.221174847729504,
+      "entry_volume_ratio": 0.14898613066750743,
+      "entry_score": 12.04596047444003,
+      "current_price": 88.45999908447266,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "RCUS_2026-07-14",
+      "ticker": "RCUS",
+      "sector": "Biotechnology",
+      "entry_date": "2026-07-14",
+      "entry_price": 28.454999923706055,
+      "entry_rsi2": 2.7883128185225843,
+      "entry_rsi30": 55.628570058024025,
+      "entry_rs_vs_spy": 18.086002157888625,
+      "entry_volume_ratio": 0.045542312069632405,
+      "entry_score": 27.737088081191622,
+      "current_price": 28.454999923706055,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
+  "positions_all": [
+    {
+      "id": "CORT_2026-07-14",
+      "ticker": "CORT",
+      "sector": "Pharmaceuticals",
+      "entry_date": "2026-07-14",
+      "entry_price": 88.45999908447266,
+      "entry_rsi2": 4.460072513313506,
+      "entry_rsi30": 66.97160151649683,
+      "entry_rs_vs_spy": 5.221174847729504,
+      "entry_volume_ratio": 0.14898613066750743,
+      "entry_score": 12.04596047444003,
+      "current_price": 88.45999908447266,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "RCUS_2026-07-14",
+      "ticker": "RCUS",
+      "sector": "Biotechnology",
+      "entry_date": "2026-07-14",
+      "entry_price": 28.454999923706055,
+      "entry_rsi2": 2.7883128185225843,
+      "entry_rsi30": 55.628570058024025,
+      "entry_rs_vs_spy": 18.086002157888625,
+      "entry_volume_ratio": 0.045542312069632405,
+      "entry_score": 27.737088081191622,
+      "current_price": 28.454999923706055,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
   "summary": {
     "top20": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 2,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 10000
     },
     "all": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 2,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 10000
     }
   },
-  "last_updated": "2026-07-14T13:17:48.430748Z",
-  "spy_price": 749.1699829101562,
+  "last_updated": "2026-07-14T14:33:48.847351Z",
+  "spy_price": 750.7406005859375,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
