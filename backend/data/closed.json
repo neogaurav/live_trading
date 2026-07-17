@@ -2208,6 +2208,22 @@
       "entry_score": 16.939320152831762,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "LGND_2026-07-16",
+      "ticker": "LGND",
+      "sector": "Biotechnology",
+      "entry_date": "2026-07-16",
+      "exit_date": "2026-07-17",
+      "entry_price": 300.0,
+      "exit_price": 303.0450134277344,
+      "pnl_pct": 1.0150044759114518,
+      "pnl_dollars": 50.750223795572595,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 23.38269121561906,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2222,13 +2238,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 138,
-      "winners": 99,
+      "total_trades": 139,
+      "winners": 100,
       "losers": 39,
-      "win_rate": 71.73913043478261,
-      "total_pnl": -317.24,
-      "profit_factor": 0.96,
-      "avg_win": 81.72,
+      "win_rate": 71.94244604316546,
+      "total_pnl": -266.49,
+      "profit_factor": 0.97,
+      "avg_win": 81.41,
       "avg_loss": 215.57
     }
   },
