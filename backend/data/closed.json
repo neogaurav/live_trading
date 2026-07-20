@@ -2256,6 +2256,22 @@
       "entry_score": 13.92075261383521,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CART_2026-07-17",
+      "ticker": "CART",
+      "sector": "Food Retail",
+      "entry_date": "2026-07-17",
+      "exit_date": "2026-07-20",
+      "entry_price": 46.31999969482422,
+      "exit_price": 46.939998626708984,
+      "pnl_pct": 1.3385123833540291,
+      "pnl_dollars": 66.92561916770146,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 17.756710642944398,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2270,13 +2286,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 141,
-      "winners": 101,
+      "total_trades": 142,
+      "winners": 102,
       "losers": 40,
-      "win_rate": 71.63120567375887,
-      "total_pnl": -349.62,
-      "profit_factor": 0.96,
-      "avg_win": 82.76,
+      "win_rate": 71.83098591549296,
+      "total_pnl": -282.7,
+      "profit_factor": 0.97,
+      "avg_win": 82.6,
       "avg_loss": 217.71
     }
   },
