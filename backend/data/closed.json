@@ -2224,6 +2224,38 @@
       "entry_score": 23.38269121561906,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "JBSS_2026-07-16",
+      "ticker": "JBSS",
+      "sector": "Packaged Foods & Meats",
+      "entry_date": "2026-07-16",
+      "exit_date": "2026-07-20",
+      "entry_price": 85.20500183105469,
+      "exit_price": 80.06999969482422,
+      "pnl_pct": -6.0266440066654825,
+      "pnl_dollars": -301.3322003332741,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 16.820343877601886,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "BTSG_2026-07-17",
+      "ticker": "BTSG",
+      "sector": "Health Care Services",
+      "entry_date": "2026-07-17",
+      "exit_date": "2026-07-20",
+      "entry_price": 70.23500061035156,
+      "exit_price": 73.30000305175781,
+      "pnl_pct": 4.363924560078258,
+      "pnl_dollars": 218.19622800391292,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.92075261383521,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2238,14 +2270,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 139,
-      "winners": 100,
-      "losers": 39,
-      "win_rate": 71.94244604316546,
-      "total_pnl": -266.49,
-      "profit_factor": 0.97,
-      "avg_win": 81.41,
-      "avg_loss": 215.57
+      "total_trades": 141,
+      "winners": 101,
+      "losers": 40,
+      "win_rate": 71.63120567375887,
+      "total_pnl": -349.62,
+      "profit_factor": 0.96,
+      "avg_win": 82.76,
+      "avg_loss": 217.71
     }
   },
   "strategy": "UltraQ_90_RS2"
