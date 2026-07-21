@@ -2272,6 +2272,22 @@
       "entry_score": 17.756710642944398,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "NBIX_2026-07-20",
+      "ticker": "NBIX",
+      "sector": "Biotechnology",
+      "entry_date": "2026-07-20",
+      "exit_date": "2026-07-21",
+      "entry_price": 173.50999450683594,
+      "exit_price": 177.73500061035156,
+      "pnl_pct": 2.4350217493374293,
+      "pnl_dollars": 121.75108746687147,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 16.353239996553555,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2286,13 +2302,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 142,
-      "winners": 102,
+      "total_trades": 143,
+      "winners": 103,
       "losers": 40,
-      "win_rate": 71.83098591549296,
-      "total_pnl": -282.7,
-      "profit_factor": 0.97,
-      "avg_win": 82.6,
+      "win_rate": 72.02797202797203,
+      "total_pnl": -160.95,
+      "profit_factor": 0.98,
+      "avg_win": 82.98,
       "avg_loss": 217.71
     }
   },
