@@ -2320,6 +2320,22 @@
       "entry_score": 8.565091314688702,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "RVTY_2026-07-21",
+      "ticker": "RVTY",
+      "sector": "Health Care",
+      "entry_date": "2026-07-21",
+      "exit_date": "2026-07-22",
+      "entry_price": 109.4749984741211,
+      "exit_price": 110.67749786376953,
+      "pnl_pct": 1.0984237555689003,
+      "pnl_dollars": 54.92118777844502,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 20.998244470207748,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2334,13 +2350,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 145,
-      "winners": 104,
+      "total_trades": 146,
+      "winners": 105,
       "losers": 41,
-      "win_rate": 71.72413793103448,
-      "total_pnl": -429.51,
-      "profit_factor": 0.95,
-      "avg_win": 82.68,
+      "win_rate": 71.91780821917808,
+      "total_pnl": -374.59,
+      "profit_factor": 0.96,
+      "avg_win": 82.41,
       "avg_loss": 220.19
     }
   },
