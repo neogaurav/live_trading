@@ -2288,6 +2288,38 @@
       "entry_score": 16.353239996553555,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CART_2026-07-20",
+      "ticker": "CART",
+      "sector": "Food Retail",
+      "entry_date": "2026-07-20",
+      "exit_date": "2026-07-22",
+      "entry_price": 46.939998626708984,
+      "exit_price": 43.939998626708984,
+      "pnl_pct": -6.391137809477887,
+      "pnl_dollars": -319.5568904738943,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 19.78659280433126,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "CYTK_2026-07-21",
+      "ticker": "CYTK",
+      "sector": "Biotechnology",
+      "entry_date": "2026-07-21",
+      "exit_date": "2026-07-22",
+      "entry_price": 81.37999725341797,
+      "exit_price": 82.20999908447266,
+      "pnl_pct": 1.0199088953886992,
+      "pnl_dollars": 50.99544476943496,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 8.565091314688702,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2302,14 +2334,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 143,
-      "winners": 103,
-      "losers": 40,
-      "win_rate": 72.02797202797203,
-      "total_pnl": -160.95,
-      "profit_factor": 0.98,
-      "avg_win": 82.98,
-      "avg_loss": 217.71
+      "total_trades": 145,
+      "winners": 104,
+      "losers": 41,
+      "win_rate": 71.72413793103448,
+      "total_pnl": -429.51,
+      "profit_factor": 0.95,
+      "avg_win": 82.68,
+      "avg_loss": 220.19
     }
   },
   "strategy": "UltraQ_90_RS2"
