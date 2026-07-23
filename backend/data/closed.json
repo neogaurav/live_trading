@@ -2336,6 +2336,22 @@
       "entry_score": 20.998244470207748,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "PRVA_2026-07-21",
+      "ticker": "PRVA",
+      "sector": "Health Care Services",
+      "entry_date": "2026-07-21",
+      "exit_date": "2026-07-23",
+      "entry_price": 26.309999465942383,
+      "exit_price": 25.100000381469727,
+      "pnl_pct": -4.599008396176396,
+      "pnl_dollars": -229.95041980881982,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 24.116590148596305,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2350,14 +2366,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 146,
+      "total_trades": 147,
       "winners": 105,
-      "losers": 41,
-      "win_rate": 71.91780821917808,
-      "total_pnl": -374.59,
-      "profit_factor": 0.96,
+      "losers": 42,
+      "win_rate": 71.42857142857143,
+      "total_pnl": -604.54,
+      "profit_factor": 0.93,
       "avg_win": 82.41,
-      "avg_loss": 220.19
+      "avg_loss": 220.43
     }
   },
   "strategy": "UltraQ_90_RS2"
