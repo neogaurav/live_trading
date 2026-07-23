@@ -2352,6 +2352,38 @@
       "entry_score": 24.116590148596305,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CRL_2026-07-22",
+      "ticker": "CRL",
+      "sector": "Health Care",
+      "entry_date": "2026-07-22",
+      "exit_date": "2026-07-23",
+      "entry_price": 220.0500030517578,
+      "exit_price": 227.39999389648438,
+      "pnl_pct": 3.3401457590517714,
+      "pnl_dollars": 167.00728795258857,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 21.859191903844064,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "ARMK_2026-07-22",
+      "ticker": "ARMK",
+      "sector": "Distributors",
+      "entry_date": "2026-07-22",
+      "exit_date": "2026-07-23",
+      "entry_price": 56.21500015258789,
+      "exit_price": 57.345001220703125,
+      "pnl_pct": 2.0101415370417097,
+      "pnl_dollars": 100.50707685208549,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 14.674966262513438,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2366,13 +2398,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 147,
-      "winners": 105,
+      "total_trades": 149,
+      "winners": 107,
       "losers": 42,
-      "win_rate": 71.42857142857143,
-      "total_pnl": -604.54,
-      "profit_factor": 0.93,
-      "avg_win": 82.41,
+      "win_rate": 71.81208053691275,
+      "total_pnl": -337.02,
+      "profit_factor": 0.96,
+      "avg_win": 83.37,
       "avg_loss": 220.43
     }
   },
