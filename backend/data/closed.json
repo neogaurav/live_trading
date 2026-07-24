@@ -2384,6 +2384,22 @@
       "entry_score": 14.674966262513438,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "IQV_2026-07-23",
+      "ticker": "IQV",
+      "sector": "Health Care",
+      "entry_date": "2026-07-23",
+      "exit_date": "2026-07-24",
+      "entry_price": 207.36000061035156,
+      "exit_price": 208.06500244140625,
+      "pnl_pct": 0.33998930795695603,
+      "pnl_dollars": 16.9994653978478,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 18.678083243541764,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2398,13 +2414,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 149,
-      "winners": 107,
+      "total_trades": 150,
+      "winners": 108,
       "losers": 42,
-      "win_rate": 71.81208053691275,
-      "total_pnl": -337.02,
-      "profit_factor": 0.96,
-      "avg_win": 83.37,
+      "win_rate": 72.0,
+      "total_pnl": -320.02,
+      "profit_factor": 0.97,
+      "avg_win": 82.76,
       "avg_loss": 220.43
     }
   },
