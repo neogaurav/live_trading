@@ -2400,6 +2400,38 @@
       "entry_score": 18.678083243541764,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CRL_2026-07-23",
+      "ticker": "CRL",
+      "sector": "Health Care",
+      "entry_date": "2026-07-23",
+      "exit_date": "2026-07-24",
+      "entry_price": 227.39999389648438,
+      "exit_price": 228.8300018310547,
+      "pnl_pct": 0.6288513513422744,
+      "pnl_dollars": 31.44256756711372,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 21.030751391102385,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "TGTX_2026-07-23",
+      "ticker": "TGTX",
+      "sector": "Biotechnology",
+      "entry_date": "2026-07-23",
+      "exit_date": "2026-07-24",
+      "entry_price": 54.95000076293945,
+      "exit_price": 55.39500045776367,
+      "pnl_pct": 0.8098265489458356,
+      "pnl_dollars": 40.49132744729178,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 14.015097376367097,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2414,13 +2446,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 150,
-      "winners": 108,
+      "total_trades": 152,
+      "winners": 110,
       "losers": 42,
-      "win_rate": 72.0,
-      "total_pnl": -320.02,
+      "win_rate": 72.36842105263158,
+      "total_pnl": -248.09,
       "profit_factor": 0.97,
-      "avg_win": 82.76,
+      "avg_win": 81.91,
       "avg_loss": 220.43
     }
   },
