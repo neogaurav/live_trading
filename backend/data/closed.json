@@ -2720,6 +2720,22 @@
       "entry_score": 17.498462122479438,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "JXN_2026-07-24",
+      "ticker": "JXN",
+      "sector": "Life & Health Insurance",
+      "entry_date": "2026-07-24",
+      "exit_date": "2026-07-27",
+      "entry_price": 118.25,
+      "exit_price": 121.45500183105469,
+      "pnl_pct": 2.7103609564944398,
+      "pnl_dollars": 135.51804782472198,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.991863519986692,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2734,13 +2750,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 170,
-      "winners": 127,
+      "total_trades": 171,
+      "winners": 128,
       "losers": 43,
-      "win_rate": 74.70588235294117,
-      "total_pnl": 1837.12,
-      "profit_factor": 1.19,
-      "avg_win": 89.44,
+      "win_rate": 74.85380116959064,
+      "total_pnl": 1972.63,
+      "profit_factor": 1.21,
+      "avg_win": 89.8,
       "avg_loss": 221.44
     }
   },
