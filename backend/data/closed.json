@@ -2704,6 +2704,22 @@
       "entry_score": 19.98643682296415,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "WRLD_2026-07-24",
+      "ticker": "WRLD",
+      "sector": "Consumer Finance",
+      "entry_date": "2026-07-24",
+      "exit_date": "2026-07-27",
+      "entry_price": 212.9499969482422,
+      "exit_price": 201.6999969482422,
+      "pnl_pct": -5.2829303410294575,
+      "pnl_dollars": -264.14651705147287,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 17.498462122479438,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -2718,14 +2734,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 169,
+      "total_trades": 170,
       "winners": 127,
-      "losers": 42,
-      "win_rate": 75.14792899408283,
-      "total_pnl": 2101.26,
-      "profit_factor": 1.23,
+      "losers": 43,
+      "win_rate": 74.70588235294117,
+      "total_pnl": 1837.12,
+      "profit_factor": 1.19,
       "avg_win": 89.44,
-      "avg_loss": 220.43
+      "avg_loss": 221.44
     }
   },
   "strategy": "UltraQ_90_RS2"
