@@ -179,6 +179,46 @@
       "exit_signal": null,
       "position_size": 5000,
       "in_top20": true
+    },
+    {
+      "id": "DAVE_2026-07-28",
+      "ticker": "DAVE",
+      "sector": "Consumer Finance",
+      "entry_date": "2026-07-28",
+      "entry_price": 406.45001220703125,
+      "entry_rsi2": 2.9205240286143095,
+      "entry_rsi30": 63.10414801347658,
+      "entry_rs_vs_spy": 14.929898328038414,
+      "entry_volume_ratio": 0.9231484847418804,
+      "entry_score": 28.704592694519196,
+      "current_price": 406.45001220703125,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "RELY_2026-07-28",
+      "ticker": "RELY",
+      "sector": "Transaction & Payment Processing Services",
+      "entry_date": "2026-07-28",
+      "entry_price": 23.329999923706055,
+      "entry_rsi2": 2.742807955106585,
+      "entry_rsi30": 55.85369318971197,
+      "entry_rs_vs_spy": 2.6631779501830932,
+      "entry_volume_ratio": 0.894244817887222,
+      "entry_score": 16.648786129406034,
+      "current_price": 23.329999923706055,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
     }
   ],
   "positions_all": [
@@ -361,21 +401,61 @@
       "exit_signal": null,
       "position_size": 5000,
       "in_top20": true
+    },
+    {
+      "id": "DAVE_2026-07-28",
+      "ticker": "DAVE",
+      "sector": "Consumer Finance",
+      "entry_date": "2026-07-28",
+      "entry_price": 406.45001220703125,
+      "entry_rsi2": 2.9205240286143095,
+      "entry_rsi30": 63.10414801347658,
+      "entry_rs_vs_spy": 14.929898328038414,
+      "entry_volume_ratio": 0.9231484847418804,
+      "entry_score": 28.704592694519196,
+      "current_price": 406.45001220703125,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "RELY_2026-07-28",
+      "ticker": "RELY",
+      "sector": "Transaction & Payment Processing Services",
+      "entry_date": "2026-07-28",
+      "entry_price": 23.329999923706055,
+      "entry_rsi2": 2.742807955106585,
+      "entry_rsi30": 55.85369318971197,
+      "entry_rs_vs_spy": 2.6631779501830932,
+      "entry_volume_ratio": 0.894244817887222,
+      "entry_score": 16.648786129406034,
+      "current_price": 23.329999923706055,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
     }
   ],
   "summary": {
     "top20": {
-      "open_count": 9,
+      "open_count": 11,
       "total_unrealized_pnl": -807.17,
-      "total_capital_deployed": 45000
+      "total_capital_deployed": 55000
     },
     "all": {
-      "open_count": 9,
+      "open_count": 11,
       "total_unrealized_pnl": -807.17,
-      "total_capital_deployed": 45000
+      "total_capital_deployed": 55000
     }
   },
-  "last_updated": "2026-07-28T21:13:01.212230Z",
+  "last_updated": "2026-07-28T22:03:53.607690Z",
   "spy_price": 740.8599853515625,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
