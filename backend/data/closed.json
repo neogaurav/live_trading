@@ -3216,6 +3216,22 @@
       "entry_score": 31.16835985168365,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "FFIV_2026-07-27",
+      "ticker": "FFIV",
+      "sector": "Information Technology",
+      "entry_date": "2026-07-27",
+      "exit_date": "2026-07-28",
+      "entry_price": 407.9599914550781,
+      "exit_price": 408.32000732421875,
+      "pnl_pct": 0.08824783720986495,
+      "pnl_dollars": 4.412391860493248,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 24.62479773455942,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3230,13 +3246,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 201,
-      "winners": 152,
+      "total_trades": 202,
+      "winners": 153,
       "losers": 49,
-      "win_rate": 75.62189054726367,
-      "total_pnl": 3799.18,
+      "win_rate": 75.74257425742574,
+      "total_pnl": 3803.6,
       "profit_factor": 1.38,
-      "avg_win": 91.34,
+      "avg_win": 90.77,
       "avg_loss": 205.8
     }
   },
