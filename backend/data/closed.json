@@ -3360,6 +3360,22 @@
       "entry_score": 16.648786129406034,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "VSTS_2026-07-28",
+      "ticker": "VSTS",
+      "sector": "Diversified Support Services",
+      "entry_date": "2026-07-28",
+      "exit_date": "2026-07-29",
+      "entry_price": 15.469900131225586,
+      "exit_price": 15.569999694824219,
+      "pnl_pct": 0.6470601797653686,
+      "pnl_dollars": 32.35300898826843,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.55153362534497,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3374,13 +3390,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 210,
-      "winners": 156,
+      "total_trades": 211,
+      "winners": 157,
       "losers": 54,
-      "win_rate": 74.28571428571429,
-      "total_pnl": 3309.4,
+      "win_rate": 74.40758293838863,
+      "total_pnl": 3341.75,
       "profit_factor": 1.31,
-      "avg_win": 90.48,
+      "avg_win": 90.11,
       "avg_loss": 200.1
     }
   },
