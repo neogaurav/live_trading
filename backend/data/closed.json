@@ -3376,6 +3376,70 @@
       "entry_score": 13.55153362534497,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "EXPD_2026-07-28",
+      "ticker": "EXPD",
+      "sector": "Industrials",
+      "entry_date": "2026-07-28",
+      "exit_date": "2026-07-30",
+      "entry_price": 171.67999267578125,
+      "exit_price": 165.5,
+      "pnl_pct": -3.5997162974326313,
+      "pnl_dollars": -179.98581487163156,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 16.596802359858607,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "EGP_2026-07-28",
+      "ticker": "EGP",
+      "sector": "Industrial REITs",
+      "entry_date": "2026-07-28",
+      "exit_date": "2026-07-30",
+      "entry_price": 212.1999969482422,
+      "exit_price": 207.1199951171875,
+      "pnl_pct": -2.3939688520795532,
+      "pnl_dollars": -119.69844260397767,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 14.113165511679826,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "DAVE_2026-07-28",
+      "ticker": "DAVE",
+      "sector": "Consumer Finance",
+      "entry_date": "2026-07-28",
+      "exit_date": "2026-07-30",
+      "entry_price": 406.45001220703125,
+      "exit_price": 368.7200012207031,
+      "pnl_pct": -9.282817038546376,
+      "pnl_dollars": -464.1408519273188,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 28.704592694519196,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "PR_2026-07-29",
+      "ticker": "PR",
+      "sector": "Oil & Gas Exploration & Production",
+      "entry_date": "2026-07-29",
+      "exit_date": "2026-07-30",
+      "entry_price": 20.78499984741211,
+      "exit_price": 20.760000228881836,
+      "pnl_pct": -0.12027721296031801,
+      "pnl_dollars": -6.013860648015901,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 22.279252444040786,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3390,14 +3454,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 211,
+      "total_trades": 215,
       "winners": 157,
-      "losers": 54,
-      "win_rate": 74.40758293838863,
-      "total_pnl": 3341.75,
-      "profit_factor": 1.31,
+      "losers": 58,
+      "win_rate": 73.0232558139535,
+      "total_pnl": 2571.91,
+      "profit_factor": 1.22,
       "avg_win": 90.11,
-      "avg_loss": 200.1
+      "avg_loss": 199.57
     }
   },
   "strategy": "UltraQ_90_RS2"
