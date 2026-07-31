@@ -3440,6 +3440,70 @@
       "entry_score": 22.279252444040786,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "HUBG_2026-07-29",
+      "ticker": "HUBG",
+      "sector": "Air Freight & Logistics",
+      "entry_date": "2026-07-29",
+      "exit_date": "2026-07-31",
+      "entry_price": 47.7599983215332,
+      "exit_price": 45.61000061035156,
+      "pnl_pct": -4.501670407748504,
+      "pnl_dollars": -225.0835203874252,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 18.665274519547967,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "BNY_2026-07-30",
+      "ticker": "BNY",
+      "sector": "Financials",
+      "entry_date": "2026-07-30",
+      "exit_date": "2026-07-31",
+      "entry_price": 153.32000732421875,
+      "exit_price": 156.77000427246094,
+      "pnl_pct": 2.2501935712451626,
+      "pnl_dollars": 112.50967856225813,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 18.521458289623265,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "STT_2026-07-30",
+      "ticker": "STT",
+      "sector": "Financials",
+      "entry_date": "2026-07-30",
+      "exit_date": "2026-07-31",
+      "entry_price": 177.34249877929688,
+      "exit_price": 184.88999938964844,
+      "pnl_pct": 4.255889401752722,
+      "pnl_dollars": 212.79447008763609,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.425695376546084,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "WHD_2026-07-30",
+      "ticker": "WHD",
+      "sector": "Oil & Gas Equipment & Services",
+      "entry_date": "2026-07-30",
+      "exit_date": "2026-07-31",
+      "entry_price": 59.375,
+      "exit_price": 62.209999084472656,
+      "pnl_pct": 4.774735300164479,
+      "pnl_dollars": 238.73676500822393,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 32.250307397271996,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3454,14 +3518,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 215,
-      "winners": 157,
-      "losers": 58,
-      "win_rate": 73.0232558139535,
-      "total_pnl": 2571.91,
-      "profit_factor": 1.22,
-      "avg_win": 90.11,
-      "avg_loss": 199.57
+      "total_trades": 219,
+      "winners": 160,
+      "losers": 59,
+      "win_rate": 73.0593607305936,
+      "total_pnl": 2910.87,
+      "profit_factor": 1.25,
+      "avg_win": 91.94,
+      "avg_loss": 200.0
     }
   },
   "strategy": "UltraQ_90_RS2"
