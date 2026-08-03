@@ -3504,6 +3504,22 @@
       "entry_score": 32.250307397271996,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "VSTS_2026-07-30",
+      "ticker": "VSTS",
+      "sector": "Diversified Support Services",
+      "entry_date": "2026-07-30",
+      "exit_date": "2026-08-03",
+      "entry_price": 15.09000015258789,
+      "exit_price": 14.470000267028809,
+      "pnl_pct": -4.108680445922685,
+      "pnl_dollars": -205.43402229613423,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 16.55700895203821,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3518,14 +3534,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 219,
+      "total_trades": 220,
       "winners": 160,
-      "losers": 59,
-      "win_rate": 73.0593607305936,
-      "total_pnl": 2910.87,
-      "profit_factor": 1.25,
+      "losers": 60,
+      "win_rate": 72.72727272727273,
+      "total_pnl": 2705.44,
+      "profit_factor": 1.23,
       "avg_win": 91.94,
-      "avg_loss": 200.0
+      "avg_loss": 200.09
     }
   },
   "strategy": "UltraQ_90_RS2"
