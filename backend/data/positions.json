@@ -1,102 +1,20 @@
 {
-  "positions_top20": [
-    {
-      "id": "LTC_2026-07-31",
-      "ticker": "LTC",
-      "sector": "Health Care REITs",
-      "entry_date": "2026-07-31",
-      "entry_price": 40.40999984741211,
-      "entry_rsi2": 2.2234151401007267,
-      "entry_rsi30": 55.773780765340994,
-      "entry_rs_vs_spy": 3.5510914614480416,
-      "entry_volume_ratio": 0.03166007833155312,
-      "entry_score": 14.262561572904353,
-      "current_price": 38.90999984741211,
-      "current_pnl_pct": -3.7119525010244736,
-      "current_pnl_dollars": -185.59762505122367,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
-      "id": "HXL_2026-07-31",
-      "ticker": "HXL",
-      "sector": "Aerospace & Defense",
-      "entry_date": "2026-07-31",
-      "entry_price": 103.39990234375,
-      "entry_rsi2": 4.5649923820011935,
-      "entry_rsi30": 55.692623046666135,
-      "entry_rs_vs_spy": 4.392232925216211,
-      "entry_volume_ratio": 0.4050737863875623,
-      "entry_score": 12.287617093151635,
-      "current_price": 102.27999877929688,
-      "current_pnl_pct": -1.0830799053659024,
-      "current_pnl_dollars": -54.15399526829512,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    }
-  ],
-  "positions_all": [
-    {
-      "id": "LTC_2026-07-31",
-      "ticker": "LTC",
-      "sector": "Health Care REITs",
-      "entry_date": "2026-07-31",
-      "entry_price": 40.40999984741211,
-      "entry_rsi2": 2.2234151401007267,
-      "entry_rsi30": 55.773780765340994,
-      "entry_rs_vs_spy": 3.5510914614480416,
-      "entry_volume_ratio": 0.03166007833155312,
-      "entry_score": 14.262561572904353,
-      "current_price": 38.90999984741211,
-      "current_pnl_pct": -3.7119525010244736,
-      "current_pnl_dollars": -185.59762505122367,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    },
-    {
-      "id": "HXL_2026-07-31",
-      "ticker": "HXL",
-      "sector": "Aerospace & Defense",
-      "entry_date": "2026-07-31",
-      "entry_price": 103.39990234375,
-      "entry_rsi2": 4.5649923820011935,
-      "entry_rsi30": 55.692623046666135,
-      "entry_rs_vs_spy": 4.392232925216211,
-      "entry_volume_ratio": 0.4050737863875623,
-      "entry_score": 12.287617093151635,
-      "current_price": 102.27999877929688,
-      "current_pnl_pct": -1.0830799053659024,
-      "current_pnl_dollars": -54.15399526829512,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    }
-  ],
+  "positions_top20": [],
+  "positions_all": [],
   "summary": {
     "top20": {
-      "open_count": 2,
-      "total_unrealized_pnl": -239.75,
-      "total_capital_deployed": 10000
+      "open_count": 0,
+      "total_unrealized_pnl": 0,
+      "total_capital_deployed": 0
     },
     "all": {
-      "open_count": 2,
-      "total_unrealized_pnl": -239.75,
-      "total_capital_deployed": 10000
+      "open_count": 0,
+      "total_unrealized_pnl": 0,
+      "total_capital_deployed": 0
     }
   },
-  "last_updated": "2026-08-03T22:59:07.856509Z",
-  "spy_price": 757.6699829101562,
+  "last_updated": "2026-08-04T13:53:43.678576Z",
+  "spy_price": 763.02001953125,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {

@@ -3520,6 +3520,38 @@
       "entry_score": 16.55700895203821,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "LTC_2026-07-31",
+      "ticker": "LTC",
+      "sector": "Health Care REITs",
+      "entry_date": "2026-07-31",
+      "exit_date": "2026-08-04",
+      "entry_price": 40.40999984741211,
+      "exit_price": 38.18000030517578,
+      "pnl_pct": -5.518434918725045,
+      "pnl_dollars": -275.92174593625225,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 14.262561572904353,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "HXL_2026-07-31",
+      "ticker": "HXL",
+      "sector": "Aerospace & Defense",
+      "entry_date": "2026-07-31",
+      "exit_date": "2026-08-04",
+      "entry_price": 103.39990234375,
+      "exit_price": 103.0199966430664,
+      "pnl_pct": -0.3674139840293189,
+      "pnl_dollars": -18.370699201465946,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 12.287617093151635,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3534,14 +3566,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 220,
+      "total_trades": 222,
       "winners": 160,
-      "losers": 60,
-      "win_rate": 72.72727272727273,
-      "total_pnl": 2705.44,
-      "profit_factor": 1.23,
+      "losers": 62,
+      "win_rate": 72.07207207207207,
+      "total_pnl": 2411.14,
+      "profit_factor": 1.2,
       "avg_win": 91.94,
-      "avg_loss": 200.09
+      "avg_loss": 198.39
     }
   },
   "strategy": "UltraQ_90_RS2"
