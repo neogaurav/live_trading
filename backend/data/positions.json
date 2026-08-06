@@ -1,20 +1,102 @@
 {
-  "positions_top20": [],
-  "positions_all": [],
+  "positions_top20": [
+    {
+      "id": "DINO_2026-08-06",
+      "ticker": "DINO",
+      "sector": "Oil & Gas Refining & Marketing",
+      "entry_date": "2026-08-06",
+      "entry_price": 83.62999725341797,
+      "entry_rsi2": 2.9943494219963753,
+      "entry_rsi30": 56.48493549431368,
+      "entry_rs_vs_spy": 5.374225426144785,
+      "entry_volume_ratio": 0.17833072726239715,
+      "entry_score": 15.277180218464022,
+      "current_price": 83.62999725341797,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "GNW_2026-08-06",
+      "ticker": "GNW",
+      "sector": "Multi-line Insurance",
+      "entry_date": "2026-08-06",
+      "entry_price": 9.824999809265137,
+      "entry_rsi2": 2.0738002774635618,
+      "entry_rsi30": 57.30716457727154,
+      "entry_rs_vs_spy": 4.0542043230491265,
+      "entry_volume_ratio": 0.3484293610353921,
+      "entry_score": 16.648750573298965,
+      "current_price": 9.824999809265137,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
+  "positions_all": [
+    {
+      "id": "DINO_2026-08-06",
+      "ticker": "DINO",
+      "sector": "Oil & Gas Refining & Marketing",
+      "entry_date": "2026-08-06",
+      "entry_price": 83.62999725341797,
+      "entry_rsi2": 2.9943494219963753,
+      "entry_rsi30": 56.48493549431368,
+      "entry_rs_vs_spy": 5.374225426144785,
+      "entry_volume_ratio": 0.17833072726239715,
+      "entry_score": 15.277180218464022,
+      "current_price": 83.62999725341797,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "GNW_2026-08-06",
+      "ticker": "GNW",
+      "sector": "Multi-line Insurance",
+      "entry_date": "2026-08-06",
+      "entry_price": 9.824999809265137,
+      "entry_rsi2": 2.0738002774635618,
+      "entry_rsi30": 57.30716457727154,
+      "entry_rs_vs_spy": 4.0542043230491265,
+      "entry_volume_ratio": 0.3484293610353921,
+      "entry_score": 16.648750573298965,
+      "current_price": 9.824999809265137,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
   "summary": {
     "top20": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 2,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 10000
     },
     "all": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 2,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 10000
     }
   },
-  "last_updated": "2026-08-06T13:47:13.226173Z",
-  "spy_price": 770.5,
+  "last_updated": "2026-08-06T15:05:31.789268Z",
+  "spy_price": 770.5599975585938,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
