@@ -3552,6 +3552,22 @@
       "entry_score": 12.287617093151635,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CTAS_2026-08-06",
+      "ticker": "CTAS",
+      "sector": "Industrials",
+      "entry_date": "2026-08-06",
+      "exit_date": "2026-08-07",
+      "entry_price": 202.14999389648438,
+      "exit_price": 203.75,
+      "pnl_pct": 0.7914945099305459,
+      "pnl_dollars": 39.57472549652729,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 20.27759664135219,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3566,13 +3582,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 222,
-      "winners": 160,
+      "total_trades": 223,
+      "winners": 161,
       "losers": 62,
-      "win_rate": 72.07207207207207,
-      "total_pnl": 2411.14,
+      "win_rate": 72.19730941704036,
+      "total_pnl": 2450.72,
       "profit_factor": 1.2,
-      "avg_win": 91.94,
+      "avg_win": 91.62,
       "avg_loss": 198.39
     }
   },
