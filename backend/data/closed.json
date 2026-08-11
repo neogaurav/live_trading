@@ -3648,6 +3648,38 @@
       "entry_score": 18.055424487060847,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "UNF_2026-08-07",
+      "ticker": "UNF",
+      "sector": "Diversified Support Services",
+      "entry_date": "2026-08-07",
+      "exit_date": "2026-08-11",
+      "entry_price": 289.2099914550781,
+      "exit_price": 293.260009765625,
+      "pnl_pct": 1.400372888284518,
+      "pnl_dollars": 70.01864441422589,
+      "hold_days": 2,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.777633248254958,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "PK_2026-08-07",
+      "ticker": "PK",
+      "sector": "Hotel & Resort REITs",
+      "entry_date": "2026-08-07",
+      "exit_date": "2026-08-11",
+      "entry_price": 14.819999694824219,
+      "exit_price": 14.40999984741211,
+      "pnl_pct": -2.766530741261075,
+      "pnl_dollars": -138.32653706305376,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 17.83843372177104,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3662,14 +3694,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 228,
-      "winners": 165,
-      "losers": 63,
-      "win_rate": 72.36842105263158,
-      "total_pnl": 2695.8,
-      "profit_factor": 1.22,
-      "avg_win": 91.41,
-      "avg_loss": 196.61
+      "total_trades": 230,
+      "winners": 166,
+      "losers": 64,
+      "win_rate": 72.17391304347827,
+      "total_pnl": 2627.49,
+      "profit_factor": 1.21,
+      "avg_win": 91.28,
+      "avg_loss": 195.7
     }
   },
   "strategy": "UltraQ_90_RS2"
