@@ -3712,6 +3712,22 @@
       "entry_score": 10.64116723941991,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "SCI_2026-08-11",
+      "ticker": "SCI",
+      "sector": "Specialized Consumer Services",
+      "entry_date": "2026-08-11",
+      "exit_date": "2026-08-12",
+      "entry_price": 83.53500366210938,
+      "exit_price": 84.36000061035156,
+      "pnl_pct": 0.9876062872747449,
+      "pnl_dollars": 49.38031436373724,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 13.129991151663255,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3726,13 +3742,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 232,
-      "winners": 168,
+      "total_trades": 233,
+      "winners": 169,
       "losers": 64,
-      "win_rate": 72.41379310344827,
-      "total_pnl": 2761.05,
+      "win_rate": 72.53218884120172,
+      "total_pnl": 2810.43,
       "profit_factor": 1.22,
-      "avg_win": 90.99,
+      "avg_win": 90.74,
       "avg_loss": 195.7
     }
   },
