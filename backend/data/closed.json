@@ -3696,6 +3696,22 @@
       "entry_score": 12.404007397950203,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "STBA_2026-08-11",
+      "ticker": "STBA",
+      "sector": "Regional Banks",
+      "entry_date": "2026-08-11",
+      "exit_date": "2026-08-12",
+      "entry_price": 51.2400016784668,
+      "exit_price": 51.46500015258789,
+      "pnl_pct": 0.4391070779680373,
+      "pnl_dollars": 21.955353898401864,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 10.64116723941991,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3710,13 +3726,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 231,
-      "winners": 167,
+      "total_trades": 232,
+      "winners": 168,
       "losers": 64,
-      "win_rate": 72.2943722943723,
-      "total_pnl": 2739.09,
+      "win_rate": 72.41379310344827,
+      "total_pnl": 2761.05,
       "profit_factor": 1.22,
-      "avg_win": 91.4,
+      "avg_win": 90.99,
       "avg_loss": 195.7
     }
   },
