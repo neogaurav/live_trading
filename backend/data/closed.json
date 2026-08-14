@@ -3744,6 +3744,54 @@
       "entry_score": 16.492601056295754,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "JAZZ_2026-08-12",
+      "ticker": "JAZZ",
+      "sector": "Pharmaceuticals",
+      "entry_date": "2026-08-12",
+      "exit_date": "2026-08-14",
+      "entry_price": 249.6699981689453,
+      "exit_price": 244.52999877929688,
+      "pnl_pct": -2.058717277744493,
+      "pnl_dollars": -102.93586388722464,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 10.564600424337538,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "LNC_2026-08-13",
+      "ticker": "LNC",
+      "sector": "Multi-line Insurance",
+      "entry_date": "2026-08-13",
+      "exit_date": "2026-08-14",
+      "entry_price": 44.720001220703125,
+      "exit_price": 45.7400016784668,
+      "pnl_pct": 2.2808596375696544,
+      "pnl_dollars": 114.04298187848272,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 15.070153636019715,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "WWW_2026-08-13",
+      "ticker": "WWW",
+      "sector": "Footwear",
+      "entry_date": "2026-08-13",
+      "exit_date": "2026-08-14",
+      "entry_price": 20.040000915527344,
+      "exit_price": 20.547500610351562,
+      "pnl_pct": 2.5324334912130597,
+      "pnl_dollars": 126.62167456065299,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 23.665582271691147,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3758,14 +3806,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 234,
-      "winners": 170,
-      "losers": 64,
-      "win_rate": 72.64957264957265,
-      "total_pnl": 2822.58,
+      "total_trades": 237,
+      "winners": 172,
+      "losers": 65,
+      "win_rate": 72.57383966244726,
+      "total_pnl": 2960.31,
       "profit_factor": 1.23,
-      "avg_win": 90.28,
-      "avg_loss": 195.7
+      "avg_win": 90.63,
+      "avg_loss": 194.27
     }
   },
   "strategy": "UltraQ_90_RS2"
