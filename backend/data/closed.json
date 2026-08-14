@@ -3792,6 +3792,22 @@
       "entry_score": 23.665582271691147,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "ADT_2026-08-13",
+      "ticker": "ADT",
+      "sector": "Specialized Consumer Services",
+      "entry_date": "2026-08-13",
+      "exit_date": "2026-08-14",
+      "entry_price": 7.380000114440918,
+      "exit_price": 7.499000072479248,
+      "pnl_pct": 1.6124655310705949,
+      "pnl_dollars": 80.62327655352975,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 16.834349571181363,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3806,13 +3822,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 237,
-      "winners": 172,
+      "total_trades": 238,
+      "winners": 173,
       "losers": 65,
-      "win_rate": 72.57383966244726,
-      "total_pnl": 2960.31,
-      "profit_factor": 1.23,
-      "avg_win": 90.63,
+      "win_rate": 72.68907563025209,
+      "total_pnl": 3040.93,
+      "profit_factor": 1.24,
+      "avg_win": 90.57,
       "avg_loss": 194.27
     }
   },

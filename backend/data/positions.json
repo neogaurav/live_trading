@@ -1,62 +1,20 @@
 {
-  "positions_top20": [
-    {
-      "id": "ADT_2026-08-13",
-      "ticker": "ADT",
-      "sector": "Specialized Consumer Services",
-      "entry_date": "2026-08-13",
-      "entry_price": 7.380000114440918,
-      "entry_rsi2": 1.723389017345724,
-      "entry_rsi30": 55.327547046267114,
-      "entry_rs_vs_spy": 4.952575451347285,
-      "entry_volume_ratio": 0.0657104309051051,
-      "entry_score": 16.834349571181363,
-      "current_price": 7.449999809265137,
-      "current_pnl_pct": 0.94850533521329,
-      "current_pnl_dollars": 47.4252667606645,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    }
-  ],
-  "positions_all": [
-    {
-      "id": "ADT_2026-08-13",
-      "ticker": "ADT",
-      "sector": "Specialized Consumer Services",
-      "entry_date": "2026-08-13",
-      "entry_price": 7.380000114440918,
-      "entry_rsi2": 1.723389017345724,
-      "entry_rsi30": 55.327547046267114,
-      "entry_rs_vs_spy": 4.952575451347285,
-      "entry_volume_ratio": 0.0657104309051051,
-      "entry_score": 16.834349571181363,
-      "current_price": 7.449999809265137,
-      "current_pnl_pct": 0.94850533521329,
-      "current_pnl_dollars": 47.4252667606645,
-      "hold_days": 1,
-      "status": "open",
-      "exit_signal": null,
-      "position_size": 5000,
-      "in_top20": true
-    }
-  ],
+  "positions_top20": [],
+  "positions_all": [],
   "summary": {
     "top20": {
-      "open_count": 1,
-      "total_unrealized_pnl": 47.43,
-      "total_capital_deployed": 5000
+      "open_count": 0,
+      "total_unrealized_pnl": 0,
+      "total_capital_deployed": 0
     },
     "all": {
-      "open_count": 1,
-      "total_unrealized_pnl": 47.43,
-      "total_capital_deployed": 5000
+      "open_count": 0,
+      "total_unrealized_pnl": 0,
+      "total_capital_deployed": 0
     }
   },
-  "last_updated": "2026-08-14T14:46:56.054790Z",
-  "spy_price": 777.1400146484375,
+  "last_updated": "2026-08-14T15:41:00.549239Z",
+  "spy_price": 776.2100219726562,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
