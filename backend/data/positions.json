@@ -1,20 +1,102 @@
 {
-  "positions_top20": [],
-  "positions_all": [],
+  "positions_top20": [
+    {
+      "id": "DGX_2026-08-17",
+      "ticker": "DGX",
+      "sector": "Health Care",
+      "entry_date": "2026-08-17",
+      "entry_price": 235.89999389648438,
+      "entry_rsi2": 4.932145250576738,
+      "entry_rsi30": 65.01306391114454,
+      "entry_rs_vs_spy": 9.115869574573843,
+      "entry_volume_ratio": 0.05989256413506768,
+      "entry_score": 14.551041894095704,
+      "current_price": 235.89999389648438,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "WTW_2026-08-17",
+      "ticker": "WTW",
+      "sector": "Financials",
+      "entry_date": "2026-08-17",
+      "entry_price": 331.6050109863281,
+      "entry_rsi2": 3.1426294925147573,
+      "entry_rsi30": 63.15846852792693,
+      "entry_rs_vs_spy": 8.57673732657751,
+      "entry_volume_ratio": 0.047570801789775324,
+      "entry_score": 17.52933235049687,
+      "current_price": 331.6050109863281,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
+  "positions_all": [
+    {
+      "id": "DGX_2026-08-17",
+      "ticker": "DGX",
+      "sector": "Health Care",
+      "entry_date": "2026-08-17",
+      "entry_price": 235.89999389648438,
+      "entry_rsi2": 4.932145250576738,
+      "entry_rsi30": 65.01306391114454,
+      "entry_rs_vs_spy": 9.115869574573843,
+      "entry_volume_ratio": 0.05989256413506768,
+      "entry_score": 14.551041894095704,
+      "current_price": 235.89999389648438,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    },
+    {
+      "id": "WTW_2026-08-17",
+      "ticker": "WTW",
+      "sector": "Financials",
+      "entry_date": "2026-08-17",
+      "entry_price": 331.6050109863281,
+      "entry_rsi2": 3.1426294925147573,
+      "entry_rsi30": 63.15846852792693,
+      "entry_rs_vs_spy": 8.57673732657751,
+      "entry_volume_ratio": 0.047570801789775324,
+      "entry_score": 17.52933235049687,
+      "current_price": 331.6050109863281,
+      "current_pnl_pct": 0.0,
+      "current_pnl_dollars": 0.0,
+      "hold_days": 0,
+      "status": "open",
+      "exit_signal": null,
+      "position_size": 5000,
+      "in_top20": true
+    }
+  ],
   "summary": {
     "top20": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 2,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 10000
     },
     "all": {
-      "open_count": 0,
-      "total_unrealized_pnl": 0,
-      "total_capital_deployed": 0
+      "open_count": 2,
+      "total_unrealized_pnl": 0.0,
+      "total_capital_deployed": 10000
     }
   },
-  "last_updated": "2026-08-17T13:32:37.450108Z",
-  "spy_price": 776.3400268554688,
+  "last_updated": "2026-08-17T14:22:58.628103Z",
+  "spy_price": 775.3599853515625,
   "spy_above_200sma": true,
   "strategy": "UltraQ_90_RS2",
   "strategy_config": {
