@@ -3808,6 +3808,22 @@
       "entry_score": 16.834349571181363,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "DGX_2026-08-17",
+      "ticker": "DGX",
+      "sector": "Health Care",
+      "entry_date": "2026-08-17",
+      "exit_date": "2026-08-18",
+      "entry_price": 235.89999389648438,
+      "exit_price": 237.1999969482422,
+      "pnl_pct": 0.5510822744354327,
+      "pnl_dollars": 27.554113721771635,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 14.551041894095704,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3822,13 +3838,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 238,
-      "winners": 173,
+      "total_trades": 239,
+      "winners": 174,
       "losers": 65,
-      "win_rate": 72.68907563025209,
-      "total_pnl": 3040.93,
+      "win_rate": 72.80334728033473,
+      "total_pnl": 3068.48,
       "profit_factor": 1.24,
-      "avg_win": 90.57,
+      "avg_win": 90.21,
       "avg_loss": 194.27
     }
   },
