@@ -3952,6 +3952,54 @@
       "entry_score": 21.31756185858849,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "EL_2026-08-19",
+      "ticker": "EL",
+      "sector": "Consumer Staples",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-20",
+      "entry_price": 96.8499984741211,
+      "exit_price": 95.48999786376953,
+      "pnl_pct": -1.4042340028688427,
+      "pnl_dollars": -70.21170014344213,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 25.625394352168655,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "MTD_2026-08-19",
+      "ticker": "MTD",
+      "sector": "Health Care",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-20",
+      "entry_price": 1447.050048828125,
+      "exit_price": 1426.259033203125,
+      "pnl_pct": -1.4367862149507138,
+      "pnl_dollars": -71.83931074753569,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 20.453031811670428,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "WAT_2026-08-19",
+      "ticker": "WAT",
+      "sector": "Health Care",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-20",
+      "entry_price": 415.2799987792969,
+      "exit_price": 414.42999267578125,
+      "pnl_pct": -0.20468264930028068,
+      "pnl_dollars": -10.234132465014035,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 17.31699457756784,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -3966,14 +4014,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 247,
+      "total_trades": 250,
       "winners": 181,
-      "losers": 66,
-      "win_rate": 73.27935222672065,
-      "total_pnl": 3485.83,
-      "profit_factor": 1.28,
+      "losers": 69,
+      "win_rate": 72.39999999999999,
+      "total_pnl": 3333.54,
+      "profit_factor": 1.26,
       "avg_win": 89.1,
-      "avg_loss": 191.53
+      "avg_loss": 185.41
     }
   },
   "strategy": "UltraQ_90_RS2"
