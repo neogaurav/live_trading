@@ -4016,6 +4016,22 @@
       "entry_score": 12.472363492474638,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "PKG_2026-08-19",
+      "ticker": "PKG",
+      "sector": "Materials",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-20",
+      "entry_price": 254.22000122070312,
+      "exit_price": 254.97999572753906,
+      "pnl_pct": 0.29895149995540216,
+      "pnl_dollars": 14.947574997770108,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 14.350038123698964,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -4030,13 +4046,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 251,
-      "winners": 181,
+      "total_trades": 252,
+      "winners": 182,
       "losers": 70,
-      "win_rate": 72.11155378486056,
-      "total_pnl": 3331.44,
+      "win_rate": 72.22222222222221,
+      "total_pnl": 3346.39,
       "profit_factor": 1.26,
-      "avg_win": 89.1,
+      "avg_win": 88.69,
       "avg_loss": 182.79
     }
   },
