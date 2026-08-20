@@ -4000,6 +4000,22 @@
       "entry_score": 17.31699457756784,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "IFF_2026-08-19",
+      "ticker": "IFF",
+      "sector": "Materials",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-20",
+      "entry_price": 83.30999755859375,
+      "exit_price": 83.2750015258789,
+      "pnl_pct": -0.04200700244917366,
+      "pnl_dollars": -2.100350122458683,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 12.472363492474638,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -4014,14 +4030,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 250,
+      "total_trades": 251,
       "winners": 181,
-      "losers": 69,
-      "win_rate": 72.39999999999999,
-      "total_pnl": 3333.54,
+      "losers": 70,
+      "win_rate": 72.11155378486056,
+      "total_pnl": 3331.44,
       "profit_factor": 1.26,
       "avg_win": 89.1,
-      "avg_loss": 185.41
+      "avg_loss": 182.79
     }
   },
   "strategy": "UltraQ_90_RS2"
