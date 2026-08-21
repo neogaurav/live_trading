@@ -4272,6 +4272,22 @@
       "entry_score": 14.914794750663264,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "ZBRA_2026-08-20",
+      "ticker": "ZBRA",
+      "sector": "Information Technology",
+      "entry_date": "2026-08-20",
+      "exit_date": "2026-08-21",
+      "entry_price": 355.7349853515625,
+      "exit_price": 367.7699890136719,
+      "pnl_pct": 3.38313749214616,
+      "pnl_dollars": 169.156874607308,
+      "hold_days": 1,
+      "exit_reason": "RSI2 > 65",
+      "entry_score": 32.19339098323828,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -4286,13 +4302,13 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 267,
-      "winners": 185,
+      "total_trades": 268,
+      "winners": 186,
       "losers": 82,
-      "win_rate": 69.28838951310861,
-      "total_pnl": 2127.39,
-      "profit_factor": 1.15,
-      "avg_win": 88.36,
+      "win_rate": 69.40298507462687,
+      "total_pnl": 2296.55,
+      "profit_factor": 1.16,
+      "avg_win": 88.8,
       "avg_loss": 173.41
     }
   },
