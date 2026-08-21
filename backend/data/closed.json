@@ -4224,6 +4224,54 @@
       "entry_score": 13.623272913105314,
       "was_in_top20": false,
       "position_size": 5000
+    },
+    {
+      "id": "CSW_2026-08-19",
+      "ticker": "CSW",
+      "sector": "Industrial Conglomerates",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-21",
+      "entry_price": 336.45001220703125,
+      "exit_price": 327.7900085449219,
+      "pnl_pct": -2.5739347147892278,
+      "pnl_dollars": -128.6967357394614,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 23.835270056546783,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "NX_2026-08-19",
+      "ticker": "NX",
+      "sector": "Building Products",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-21",
+      "entry_price": 21.0,
+      "exit_price": 20.295000076293945,
+      "pnl_pct": -3.357142493838361,
+      "pnl_dollars": -167.85712469191805,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 18.72611093837289,
+      "was_in_top20": false,
+      "position_size": 5000
+    },
+    {
+      "id": "SCL_2026-08-19",
+      "ticker": "SCL",
+      "sector": "Specialty Chemicals",
+      "entry_date": "2026-08-19",
+      "exit_date": "2026-08-21",
+      "entry_price": 64.80999755859375,
+      "exit_price": 63.64500045776367,
+      "pnl_pct": -1.7975576989905373,
+      "pnl_dollars": -89.87788494952686,
+      "hold_days": 2,
+      "exit_reason": "Time Stop (2d)",
+      "entry_score": 14.914794750663264,
+      "was_in_top20": false,
+      "position_size": 5000
     }
   ],
   "performance": {
@@ -4238,14 +4286,14 @@
       "avg_loss": 0.0
     },
     "all": {
-      "total_trades": 264,
+      "total_trades": 267,
       "winners": 185,
-      "losers": 79,
-      "win_rate": 70.07575757575758,
-      "total_pnl": 2513.82,
-      "profit_factor": 1.18,
+      "losers": 82,
+      "win_rate": 69.28838951310861,
+      "total_pnl": 2127.39,
+      "profit_factor": 1.15,
       "avg_win": 88.36,
-      "avg_loss": 175.11
+      "avg_loss": 173.41
     }
   },
   "strategy": "UltraQ_90_RS2"
